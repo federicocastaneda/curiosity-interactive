@@ -396,7 +396,6 @@ Mobile
  /* Curiosity Nav
 * --------------------------------------- */
 .nav-wrapper {
-  display: none;
   position: absolute;
   top: 1000px;
   left: 10%;
