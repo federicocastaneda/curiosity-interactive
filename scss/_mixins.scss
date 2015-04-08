@@ -1,0 +1,101 @@
+// Mixins
+
+@mixin box-sizing() {
+  -moz-box-sizing:    border-box;
+  -ms-box-sizing:     border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+
+@mixin box-shadow() {
+  -webkit-box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 5px 5px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 5px 5px rgba(50, 50, 50, 0.75);
+}
+
+@mixin box-shadow-reset() {
+  -webkit-box-shadow: none;
+  -moz-box-shadow:    none;
+  box-shadow:         none;
+}
+
+@mixin webkit-reset() {
+  -webkit-appearance: none;
+}
+
+@mixin border-radius($rad) {
+  -webkit-border-radius: $rad;
+  -moz-border-radius: $rad;
+  border-radius: $rad;
+}
+// End Mixins
+
+// Google Fonts
+
+// Lato CSS Definitions
+// Lato: font-family: Lato;
+// Lato Italic: font-family: Lato;
+
+// Lato 100: font-family: Lato; font-weight: 100;
+// Lato 100 Italic: font-family: Lato; font-weight: 100; font-style: italic;
+
+// Lato 300 seems to track with Lato Light in Photoshop
+// Lato 300: font-family: Lato; font-weight: 300;
+// Lato 300 Italic: font-family: Lato; font-weight: 300; font-style: italic;
+
+// Lato 700 seems to track with Lato Bold in Photoshop
+// Lato 700: font-family: Lato; font-weight: 700;
+// Lato 700 Italic: font-family: Lato; font-weight: 700; font-style: italic;
+
+// Lato 900: font-family: Lato; font-weight: 900;
+// Lato 900 Italic: font-family: Lato; font-weight: 900; font-style: italic;
+
+@mixin lato-family($weight: normal, $style: normal) {
+  font-family: Lato, Helvetica, Arial, Verdana, sans-serif;
+  font-weight: $weight;
+  font-style: $style;
+}
+
+// End Google Fonts
+
+// links in the top header bar
+@mixin header-links() {
+
+    color: $white;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 11px;
+    float: right;
+
+    a {
+      color: $white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+}
+
+// newsriver values
+@mixin newsriver-deets($sz: '') {
+  color: $grayDark;
+  text-transform: uppercase;
+  line-height: 16px;
+  @if ($sz == 'swide') {
+    font-size: 14px;
+    height: 20px;
+  }
+  @else {
+    font-size: 10px;
+    height: 18px;
+  }
+}
+
+//svg bg with fallbacks
+@mixin vector-bg-with-fallback($name) {
+  background-image: url('../i/#{$name}.png');
+  background-image: none, url('../i/#{$name}.svg');
+}
