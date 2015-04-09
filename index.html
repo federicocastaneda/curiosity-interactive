@@ -34,10 +34,10 @@
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				menu: '#curiosity-nav',
-				anchors: ['firstPage', 'secondPage', '3rdPage', 'FourthPage'],
-				sectionsColor: ['#FFFFFF', '#F2EDE6', '#FFFFFF'],
+				anchors: ['00', '01', '02', '03', '04'],
+				sectionsColor: ['#FFFFFF', '#F2EDE6', '#FFFFFF', '#FFFFFF', '#F2EDE6'],
 				navigationPosition: 'none',
-				navigationTooltips: ['First page', 'Second page', 'Third', 'Fourth'],
+				navigationTooltips: ['First page', 'Second page', 'Third', 'Fourth', 'Fifth'],
 				responsive: 900,
 				autoScrolling: false
 			});
@@ -194,14 +194,16 @@
     <div class="map-wrapper">
     </div>
     <ul id="curiosity-nav">
-	   <li data-menuanchor="firstPage" class="active"><a href="#firstPage"> </a></li>
-	   <li data-menuanchor="secondPage"><a href="#secondPage"> </a></li>
-	   <li data-menuanchor="3rdPage"><a href="#3rdPage"> </a></li>
-       <li data-menuanchor="FourthPage"><a href="#FourthPage"> </a></li>
+	   <li data-menuanchor="00" class="active"><a href="#00"> </a></li>
+	   <li data-menuanchor="01"><a href="#01"> </a></li>
+	   <li data-menuanchor="02"><a href="#02"> </a></li>
+       <li data-menuanchor="03"><a href="#03"> </a></li>
+       <li data-menuanchor="04"><a href="#04"> </a></li>
     </ul>
 </div>
 
 <div id="fullpage">
+
 	<div class="section " id="section0">
 		<div class="intro">
 			<h1>The Martian Diaries</h1>
@@ -209,6 +211,7 @@
             <p class="authoring">BY ALEXANDRA WITZE 12:27PM, MARCH 6, 2015</p>
 		</div>
 	</div>
+
 	<div class="section" id="section1">
         <div class="intro">
             <p>The six-wheeled Curiosity rover is NASA’s rock star. Since August 2012, when it landed in Gale Crater on Mars, it’s been spending its days (or “sols” on Mars) hunting for environments where past life might have thrived. It has traveled more than 10 kilometers, drilled into more than TK rocks, scooped and analyzed TK grams? Of dirt and revealed the watery history of its landing site. As Curiosity gets ready to climb a mountain for some vertical geologizing, Science News imagined key entries from the rover’s personal diary, logged as the one-ton machine made its way across the Martian landscape. Each excerpt opens with a tweet actually posted by Curiosity, who’s Twitter name is @MarsCuriosity.</p>
@@ -224,6 +227,11 @@
             <h1>Section 4</h1>
             <p>some more text</p>
         </div>  
+    </div>
+
+    <div class="section" id="section4">
+        <div class="slide" id="slide1"><h1>We can drop text in here</h1></div>
+        <div class="slide" id="slide2"><h1>some more tex</h1></div>
     </div>
 
 </div>

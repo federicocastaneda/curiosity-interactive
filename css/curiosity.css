@@ -396,6 +396,7 @@ Mobile
  /* Curiosity Nav
 * --------------------------------------- */
 .nav-wrapper {
+  display: none;
   position: absolute;
   top: 1000px;
   left: 10%;
@@ -459,7 +460,8 @@ Mobile
 #section0,
 #section1,
 #section2,
-#section3 {
+#section3,
+#section4 {
   background-size: cover; }
 
 /* Defining each section background and styles
@@ -498,5 +500,18 @@ Mobile
   vertical-align: top; }
 #section1 .intro {
   padding-top: 3.6%; }
+
+#section4 {
+  text-align: center; }
+  #section4 #slide1 {
+    background-image: url("../images/curiosity-slide2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #section4 #slide2 {
+    background-image: url("../images/curiosity-slide1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #section4 h1 {
+    color: blue; }
 
 /*# sourceMappingURL=curiosity.css.map */
