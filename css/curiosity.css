@@ -482,7 +482,7 @@ Mobile
     margin: 0px 0px 20px 20px; }
   .section .fishback {
     margin-top: 20px;
-    padding-left: 45px;
+    padding: 0px 0px 16px 45px;
     background-image: url("../images/curiosity-fishback.png");
     background-position: center left;
     background-repeat: no-repeat; }
