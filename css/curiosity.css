@@ -464,6 +464,8 @@ Mobile
     border-bottom: solid 1px #000;
     padding-bottom: 10px;
     margin-bottom: 10px; }
+    .section div.tweet iframe.twitter-tweet {
+      width: 100%; }
   .section .cont-l {
     float: left;
     width: 45%; }
