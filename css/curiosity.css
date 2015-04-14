@@ -475,6 +475,8 @@ Mobile
     display: flex;
     align-items: center;
     justify-content: center; }
+    .section .cont-r .cont-r-content {
+      padding: 10% 0; }
   .section .video {
     max-height: 303px;
     margin: 0px 0px 20px 20px; }
