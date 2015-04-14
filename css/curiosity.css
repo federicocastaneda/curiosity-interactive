@@ -19,7 +19,6 @@ h1,
 h2,
 h3,
 h4 {
-  font-size: 4.6em;
   font-weight: 700; }
 
 p,
@@ -413,15 +412,6 @@ Mobile
     font-size: 15px;
     transition: width 0.2s;
     -webkit-appearance: none; }
-  .fix-width .nav-wrapper {
-    top: 30px; }
-  .fix-search .nav-wrapper {
-    position: fixed;
-    top: 10px;
-    left: 21px;
-    transition: top .5s ease; }
-  .fix-width .nav-wrapper input {
-    width: 250px; }
 
 #curiosity-nav {
   position: absolute;
@@ -455,15 +445,6 @@ Mobile
     #curiosity-nav li:hover {
       background: rgba(255, 255, 255, 0.8); }
 
-/* Backgrounds will cover all the section
-* --------------------------------------- */
-#section0,
-#section1,
-#section2,
-#section3,
-#section4 {
-  background-size: cover; }
-
 /* Defining each section background and styles
 * --------------------------------------- */
 #section0 {
@@ -473,6 +454,41 @@ Mobile
 
 /* Structure
 * --------------------------------------- */
+.section {
+  background-size: cover; }
+  .section h1 {
+    font-size: 3em; }
+  .section h2 {
+    font-size: 2em; }
+  .section div.tweet {
+    border-bottom: solid 1px #000;
+    padding-bottom: 10px;
+    margin-bottom: 10px; }
+  .section .cont-l {
+    float: left;
+    width: 45%; }
+  .section .cont-r {
+    float: right;
+    width: 55%; }
+  .section .video {
+    max-height: 303px;
+    margin: 0px 0px 20px 20px; }
+  .section .fishback {
+    margin-top: 20px;
+    padding-left: 45px;
+    background-image: url("../images/curiosity-fishback.png");
+    background-position: center left;
+    background-repeat: no-repeat; }
+    .section .fishback a {
+      color: #5b4b20;
+      text-decoration: none;
+      font-weight: 700; }
+      .section .fishback a:hover {
+        text-decoration: underline; }
+
+.section:nth-child(even) {
+  background-color: #f2ede6; }
+
 .intro {
   width: 80%;
   margin: 0 auto; }
@@ -500,18 +516,5 @@ Mobile
   vertical-align: top; }
 #section1 .intro {
   padding-top: 3.6%; }
-
-#section4 {
-  text-align: center; }
-  #section4 #slide1 {
-    background-image: url("../images/curiosity-slide2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-  #section4 #slide2 {
-    background-image: url("../images/curiosity-slide1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-  #section4 h1 {
-    color: blue; }
 
 /*# sourceMappingURL=curiosity.css.map */

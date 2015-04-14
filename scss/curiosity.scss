@@ -26,7 +26,6 @@ h1,
 h2,
 h3,
 h4 {
-	font-size: 4.6em;
 	font-weight: 700;
 }
 
@@ -487,18 +486,6 @@ Mobile
     		transition: width 0.2s;
    			 -webkit-appearance: none;
   		}
-  .fix-width &{
-    top:30px;
-  }
-  .fix-search & {
-    position: fixed;
-    top: 10px;
-    left: 21px;
-    transition: top .5s ease;
-  }
-  .fix-width & input {
-    width: 250px;
-  }
   &.nav-wrapper-moving {
   	//height: 100px;
   }
@@ -548,18 +535,6 @@ Mobile
 
 }
 
-
-
-/* Backgrounds will cover all the section
-* --------------------------------------- */
-#section0,
-#section1,
-#section2,
-#section3,
-#section4{
-	background-size: cover;
-}
-
 /* Defining each section background and styles
 * --------------------------------------- */
 #section0{
@@ -570,9 +545,54 @@ Mobile
 
 /* Structure
 * --------------------------------------- */
-
 .section {
-	
+	background-size: cover;
+        h1 {
+            font-size: 3em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        div.tweet {
+            border-bottom: solid 1px #000;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .cont-l {
+            float: left;
+            width: 45%;
+        }
+        .cont-r {
+            float: right;
+            width: 55%;
+        }        
+        // .asset {
+        //     float: right;
+        // }
+        .video {
+            // max-width: 567px;
+            max-height: 303px;
+            margin: 0px 0px 20px 20px;
+        }
+        .fishback {
+            margin-top: 20px;
+            padding-left: 45px;
+            background-image: url("../images/curiosity-fishback.png");
+            background-position: center left;
+            background-repeat: no-repeat;
+                a {
+                    color: #5b4b20;
+                    text-decoration: none;
+                    font-weight: 700;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                }
+        }
+}
+
+.section:nth-child(even) {
+    background-color: #f2ede6;
 }
 
 .intro {
@@ -616,19 +636,19 @@ Mobile
 		}		
 }
 
-#section4 {
-	text-align: center;
-		#slide1 {
-			background-image: url("../images/curiosity-slide2.jpg");
-			background-repeat: no-repeat;
-			background-size: cover;
-			}
-		#slide2 {
-			background-image: url("../images/curiosity-slide1.jpg");
-			background-repeat: no-repeat;
-			background-size: cover;
-			}
-		h1 {
-			color: blue;
-		}
-}
+// #section4 {
+// 	text-align: center;
+// 		#slide1 {
+// 			background-image: url("../images/curiosity-slide2.jpg");
+// 			background-repeat: no-repeat;
+// 			background-size: cover;
+// 			}
+// 		#slide2 {
+// 			background-image: url("../images/curiosity-slide1.jpg");
+// 			background-repeat: no-repeat;
+// 			background-size: cover;
+// 			}
+// 		h1 {
+// 			color: blue;
+// 		}
+// }

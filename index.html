@@ -29,15 +29,17 @@
 
 	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
     <script type="text/javascript" src="js/curiosity.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				menu: '#curiosity-nav',
-				anchors: ['00', '01', '02', '03', '04'],
-				sectionsColor: ['#FFFFFF', '#F2EDE6', '#FFFFFF', '#FFFFFF', '#F2EDE6'],
+				anchors: ['00', '01', '02', '03', '04', '05', '06'],
+				//sectionsColor: ['#FFFFFF', '#F2EDE6', '#FFFFFF', '#FFFFFF', '#F2EDE6'],
 				navigationPosition: 'none',
-				navigationTooltips: ['First page', 'Second page', 'Third', 'Fourth', 'Fifth'],
+				navigationTooltips: ['Landing', 'Intro', 'Sol 1', 'Sol 17', 'Sol 61', 'Sol 99', 'Sol 183'],
 				responsive: 900,
 				autoScrolling: false
 			});
@@ -194,11 +196,13 @@
     <div class="map-wrapper">
     </div>
     <ul id="curiosity-nav">
-	   <li data-menuanchor="00" class="active"><a href="#00"> </a></li>
-	   <li data-menuanchor="01"><a href="#01"> </a></li>
-	   <li data-menuanchor="02"><a href="#02"> </a></li>
+       <li data-menuanchor="00" class="active"><a href="#00"> </a></li>
+       <li data-menuanchor="01"><a href="#01"> </a></li>
+       <li data-menuanchor="02"><a href="#02"> </a></li>
        <li data-menuanchor="03"><a href="#03"> </a></li>
        <li data-menuanchor="04"><a href="#04"> </a></li>
+       <li data-menuanchor="04"><a href="#05"> </a></li>
+       <li data-menuanchor="04"><a href="#06"> </a></li>
     </ul>
 </div>
 
@@ -207,32 +211,113 @@
 	<div class="section " id="section0">
 		<div class="intro">
 			<h1>The Martian Diaries</h1>
-			<p class="intro-sub">Two and a half years exploring Mars. Who knew NASA’s Curiosity rover kept a scrapbook?</p>
+			<p class="intro-sub">Curiosity has explored Mars for two and a half years. What if the rover kept a scrapbook?</p>
             <p class="authoring">BY ALEXANDRA WITZE 12:27PM, MARCH 6, 2015</p>
 		</div>
 	</div>
 
 	<div class="section" id="section1">
         <div class="intro">
-            <p>The six-wheeled Curiosity rover is NASA’s rock star. Since August 2012, when it landed in Gale Crater on Mars, it’s been spending its days (or “sols” on Mars) hunting for environments where past life might have thrived. It has traveled more than 10 kilometers, drilled into more than TK rocks, scooped and analyzed TK grams? Of dirt and revealed the watery history of its landing site. As Curiosity gets ready to climb a mountain for some vertical geologizing, Science News imagined key entries from the rover’s personal diary, logged as the one-ton machine made its way across the Martian landscape. Each excerpt opens with a tweet actually posted by Curiosity, who’s Twitter name is @MarsCuriosity.</p>
-        </div>        
+            <p>The six-wheeled Curiosity rover is NASA’s rock star. Since August 2012, when it landed in Gale Crater on Mars, it has been spending its days (or “sols” on Mars) hunting for environments where past life might have thrived. It has traveled more than 10 kilometers, drilled into six rocks, scooped and analyzed three scoops of dirt and revealed the watery history of its landing site. As Curiosity gets ready to climb a mountain for some vertical geologizing, Science News imagined key entries from the rover’s personal diary, logged as the 1-ton machine made its way across the Martian landscape. Each excerpt opens with a tweet actually posted on Curiosity’s behalf at the Twitter name @MarsCuriosity.</p>
+        </div>  
 	</div>
 
 	<div class="section" id="section2">
-        <iframe src="http://www.360cities.net/embed_iframe/mars-panorama-curiosity-night" width="100%" height="100%" frameborder="0" bgcolor="#000000" target="_blank" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+        <div class="intro">
+            <div class="cont-l">
+                <h1>August 5, 2012</h1>
+                <div class="tweet">
+                    <blockquote class="twitter-tweet" lang="en"><p>I&#39;m safely on the surface of Mars. GALE CRATER I AM IN YOU!!! <a href="https://twitter.com/hashtag/MSL?src=hash">#MSL</a></p>&mdash; Curiosity Rover (@MarsCuriosity) <a href="https://twitter.com/MarsCuriosity/status/232348380431544320">August 6, 2012</a></blockquote>
+                    </div>
+                <h2>Bradbury Landing</h2>
+                <p>Everyone was worried about those seven minutes that I hurtled through the thin Martian atmosphere, with a rocket-powered “sky crane” slowing my descent. I have to admit it was pretty scary, dangling beneath four fiery engines. But I landed intact at my destination within Gale Crater, a spot named after science fiction writer Ray Bradbury. My job here is to compile my own Martian chronicles, from the stories hidden in the rocks and the dirt. But first, a nap.</p>
+                <div class="fishback">
+                    <a href="#">External link goes here</a>
+                </div>
+            </div>
+            <div class="cont-r">
+                <video src="assets/msl20120823_droppingin-1280.mp4" controls class="asset video">
+                Your browser does not support the <code>video</code> element.
+                </video>
+            </div>            
+        </div>  
 	</div>
 
     <div class="section" id="section3">
         <div class="intro">
-            <h1>Section 4</h1>
-            <p>some more text</p>
+            <div class="cont-l">
+                <h1>August 22, 2012</h1>
+                <div class="tweet">
+                    <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>1st drive complete! This is how I roll: forward 3 meters, 90º turn, then back. Electric slide, anyone? [pic] <a href="http://t.co/bqydbjvs">http://t.co/bqydbjvs</a></p>&mdash; Curiosity Rover (@MarsCuriosity) <a href="https://twitter.com/MarsCuriosity/status/238325003853115392">August 22, 2012</a></blockquote>
+                </div>  
+                <h2>Bradbury Landing</h2>
+                <p>I’ve got a 10-kilometer road trip in front of me. My ultimate goal is a peak called Mount Sharp, which is so tall and rough that my engineers couldn’t land me there. Instead, I’ve got to drive myself to its base. First, though, I’m going to check out some interesting geology off to the east. True, it’s in the opposite direction of Mount Sharp. But it’s more about the journey than the destination, right?</p>
+                <div class="fishback">
+                    <a href="#">External link goes here</a>
+                </div>
+            </div>
+            <div class="cont-r">
+
+            </div>
         </div>  
     </div>
 
     <div class="section" id="section4">
-        <div class="slide" id="slide1"><h1>We can drop text in here</h1></div>
-        <div class="slide" id="slide2"><h1>some more tex</h1></div>
+        <div class="intro">
+            <div class="cont-l">
+                <h1>October 7, 2012</h1>
+                 <div class="tweet">
+                    <blockquote class="twitter-tweet" lang="en"><p>Today&#39;s wake up song: &quot;Digging in the Dirt&quot; by Peter Gabriel. Because no song says &quot;Digging in the Regolith.&quot; &lt;sigh&gt;</p>&mdash; Curiosity Rover (@MarsCuriosity) <a href="https://twitter.com/MarsCuriosity/status/255084314918801408">October 7, 2012</a></blockquote>
+                </div>                 
+                <h2>Rocknest</h2>
+                <p>Pay dirt! I’ve used my impressive robotic arm to take my first scoop of Martian soil. I dump it into my onboard laboratory called the Sample Analysis at Mars to run some Red Planet science. SAM heats up the dirt and measures water coming out. I found small amounts of water, about 1.5 to 3 percent, bound within the minerals that make up Martian soil. If and when astronauts ever decide to join me here, they might be able to extract some of that water to drink or to make rocket fuel to help them get home again.</p>
+                <div class="fishback">
+                    <a href="#">External link goes here</a>
+                </div>
+            </div>
+        </div> 
+        <div class="cont-r">
+
+        </div> 
     </div>
+
+    <div class="section" id="section5">
+        <div class="intro">
+            <div class="cont-l">
+                <h1>November 16, 2012</h1>
+                <div class="tweet">
+                    <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>I&#39;m taking radiation readings to help future human explorers &amp; detected elusive whirlwinds on Mars [video] <a href="http://t.co/IDTTmVOe">http://t.co/IDTTmVOe</a></p>&mdash; Curiosity Rover (@MarsCuriosity) <a href="https://twitter.com/MarsCuriosity/status/269491529733791746">November 16, 2012</a></blockquote>
+                </div>                  
+                <h2>Yellowknife Bay</h2>
+                <p>On Earth, a strong magnetic field and a thick atmosphere help protect life from radiation blazing from the sun and the rest of the universe. No such luck on Mars. My radiation counter has clocked enough doses to calculate that astronauts flying from Earth to Mars and back, with a 500-day stay here, would get zapped with enough radiation to increase their chances of developing fatal cancer by about 5 percent. Radiation doesn’t bother me, but I’d be sad if visiting me made people sick.</p>
+                <div class="fishback">
+                    <a href="#">External link goes here</a>
+                </div>
+            </div>
+            <div class="cont-r">
+
+            </div> 
+        </div>  
+    </div>    
+
+    <div class="section" id="section6">
+        <div class="intro">
+            <div class="cont-l">
+                <h1>February 9, 2013</h1>
+                <div class="tweet">
+                    <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>The real deal! First drilling on Mars to collect a sample for SCIENCE is a success. <a href="http://t.co/MvnQSH7j">http://t.co/MvnQSH7j</a> <a href="http://t.co/Ld2EWS0k">http://t.co/Ld2EWS0k</a></p>&mdash; Curiosity Rover (@MarsCuriosity) <a href="https://twitter.com/MarsCuriosity/status/300278941262946304">February 9, 2013</a></blockquote>
+                </div>                  
+                <h2>John Klein</h2>
+                <p>Forget dirt: I’ve drilled into a rock! My grinding instrument has hollowed out a hole about 6.4 centimeters deep. It’s the first hole ever drilled on Mars. I’ve dumped the powdered rock into my laboratory instruments, which tell me that at least 20 percent of it is made of clay minerals. Clay forms when water interacts with sediment, so water must have once flowed here. It would have been tasty water too, neither acid nor alkaline. (My friend the Opportunity rover has found similar evidence that water once flowed at her landing site, in Meridiani Planum on the other side of the planet.)</p>
+                <div class="fishback">
+                    <a href="#">External link goes here</a>
+                </div>
+            </div>
+            <div class="cont-r">
+
+            </div> 
+        </div>  
+    </div>    
 
 </div>
 
