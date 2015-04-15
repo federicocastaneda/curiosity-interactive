@@ -556,6 +556,10 @@ Mobile
         h2 {
             font-size: 2em;
         }
+        .fw-section {
+            padding-top: 3.6%;
+        }
+            
         div.tweet {
             border-bottom: solid 1px #000;
             padding-bottom: 10px;
@@ -647,7 +651,7 @@ Mobile
 			vertical-align: top;
 		}	
     .fw-section {
-			padding: 3.6% 0% 1% 0%;
+			padding: 3.6% 0% 1% 0% !important;
             background-color: #f2ede6;
 		}		
 }

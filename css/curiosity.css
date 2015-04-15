@@ -460,6 +460,8 @@ Mobile
     font-size: 3em; }
   .section h2 {
     font-size: 2em; }
+  .section .fw-section {
+    padding-top: 3.6%; }
   .section div.tweet {
     border-bottom: solid 1px #000;
     padding-bottom: 10px;
@@ -523,7 +525,7 @@ Mobile
 #section1 .fp-tableCell {
   vertical-align: top; }
 #section1 .fw-section {
-  padding: 3.6% 0% 1% 0%;
+  padding: 3.6% 0% 1% 0% !important;
   background-color: #f2ede6; }
 
 /* Custom Slider
