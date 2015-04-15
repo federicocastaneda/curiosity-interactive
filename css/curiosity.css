@@ -493,10 +493,11 @@ Mobile
       .section .fishback a:hover {
         text-decoration: underline; }
 
-.section:nth-child(even) {
+.section:nth-child(odd) {
   background-color: #f2ede6; }
 
-.intro {
+.intro,
+.fw-section-content {
   width: 80%;
   margin: 0 auto; }
 
@@ -519,13 +520,11 @@ Mobile
 #section0 .authoring {
   font-size: smaller; }
 
-#section1 {
-  background: url("../images/curiosity-section1-bg.jpg") scroll left top repeat-x;
-  background-size: 100% 23%; }
-  #section1 .fp-tableCell {
-    vertical-align: top; }
-  #section1 .intro {
-    padding-top: 3.6%; }
+#section1 .fp-tableCell {
+  vertical-align: top; }
+#section1 .fw-section {
+  padding-top: 3.6%;
+  background-color: #f2ede6; }
 
 /* Custom Slider
 * --------------------------------------- */

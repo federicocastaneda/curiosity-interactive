@@ -603,11 +603,12 @@ Mobile
         }
 }
 
-.section:nth-child(even) {
+.section:nth-child(odd) {
     background-color: #f2ede6;
 }
 
-.intro {
+.intro,
+.fw-section-content {
 	width: 80%;
 	margin: 0 auto;
 }
@@ -640,13 +641,14 @@ Mobile
 }
 
 #section1 {
-    background: url("../images/curiosity-section1-bg.jpg") scroll left top repeat-x;
-    background-size: 100% 23%;
+    // background: url("../images/curiosity-section1-bg.jpg") scroll left top repeat-x;
+    // background-size: 100% 23%;
 	.fp-tableCell {
 			vertical-align: top;
 		}	
-	.intro {
+    .fw-section {
 			padding-top: 3.6%;
+            background-color: #f2ede6;
 		}		
 }
 
