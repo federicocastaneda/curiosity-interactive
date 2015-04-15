@@ -520,7 +520,8 @@ Mobile
   font-size: smaller; }
 
 #section1 {
-  background: url("../images/curiosity-section1-bg.jpg") scroll left top repeat-x; }
+  background: url("../images/curiosity-section1-bg.jpg") scroll left top repeat-x;
+  background-size: 100% 23%; }
   #section1 .fp-tableCell {
     vertical-align: top; }
   #section1 .intro {
