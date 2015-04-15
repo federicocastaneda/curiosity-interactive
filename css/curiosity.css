@@ -519,10 +519,12 @@ Mobile
 #section0 .authoring {
   font-size: smaller; }
 
-#section1 .fp-tableCell {
-  vertical-align: top; }
-#section1 .intro {
-  padding-top: 3.6%; }
+#section1 {
+  background: url("../images/curiosity-section1-bg.jpg") scroll left top repeat-x; }
+  #section1 .fp-tableCell {
+    vertical-align: top; }
+  #section1 .intro {
+    padding-top: 3.6%; }
 
 /* Custom Slider
 * --------------------------------------- */

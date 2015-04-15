@@ -527,7 +527,10 @@ Mobile
             	}
             	&:hover {
     				background: rgba(255,255,255, 0.8);
-    			} 
+    			}
+                // &[data-menuanchor='00'] {
+                //     display: none;
+                // } 
     	}           
 }
 
@@ -564,6 +567,9 @@ Mobile
         .cont-l {
             float: left;
             width: 45%;
+                .cont-l-content {
+
+                }
         }
         .cont-r {
             float: right;
@@ -575,11 +581,8 @@ Mobile
                     padding: 10% 0;
                 }
         }        
-        // .asset {
-        //     float: right;
-        // }
+
         .video {
-            // max-width: 567px;
             max-height: 303px;
             margin: 0px 0px 20px 20px;
         }
@@ -637,6 +640,7 @@ Mobile
 }
 
 #section1 {
+    background: url("../images/curiosity-section1-bg.jpg") scroll left top repeat-x;
 	.fp-tableCell {
 			vertical-align: top;
 		}	
@@ -672,8 +676,18 @@ Mobile
 .jssora03r {
     right: 8px;
 }
-.jssora03l { background-position: -3px -33px; }
-.jssora03r { background-position: -63px -33px; }
-.jssora03l:hover { background-position: -123px -33px; }
-.jssora03r:hover { background-position: -183px -33px; }
-.jssora03r.jssora03rdn { background-position: -303px -33px; }
+.jssora03l { 
+    background-position: -3px -33px;
+}
+.jssora03r { 
+    background-position: -63px -33px; 
+}
+.jssora03l:hover { 
+    background-position: -123px -33px; 
+}
+.jssora03r:hover { 
+    background-position: -183px -33px; 
+}
+.jssora03r.jssora03rdn { 
+    background-position: -303px -33px; 
+}
