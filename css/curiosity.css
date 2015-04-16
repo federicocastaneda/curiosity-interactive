@@ -483,7 +483,6 @@ Mobile
       margin: 0;
       padding: 0; }
       .section .fishback ul li {
-        float: left;
         list-style: none;
         padding: 0px 0px 16px 45px;
         background-image: url("../images/curiosity-fishback.png");

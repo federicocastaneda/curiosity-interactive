@@ -545,7 +545,7 @@ Mobile
     background-image: url("../images/curiosity-nav.jpg");
     background-repeat: no-repeat;;
     background-position: left top;
-        &.nav-wrapper-moving {
+        &.mars-nav-wrapper-moving {
     
         }
     .map-wrapper {
@@ -667,7 +667,6 @@ Mobile
                 margin: 0;
                 padding: 0;
                 li {
-                    float: left;
                     list-style: none;
                     padding: 0px 0px 16px 45px;
                     background-image: url("../images/curiosity-fishback.png");
