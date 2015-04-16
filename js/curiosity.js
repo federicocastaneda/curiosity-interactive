@@ -9,6 +9,16 @@ $(document).ready(function(){
       }
   });
 
+  $("#fullpage").fullpage({
+    //menu: '#curiosity-nav',
+    anchors: ['00', '01', '02', '03', '04', '05'],
+    //sectionsColor: ['#FFFFFF', '#F2EDE6', '#FFFFFF', '#FFFFFF', '#F2EDE6'],
+    navigationPosition: 'none',
+    navigationTooltips: ['Curiosity', 'Sol 1', 'Sol 17', 'Sol 61', 'Sol 99', 'Sol 183'],
+    responsive: 900,
+    autoScrolling: false
+  });
+
   var options = {
     $DragOrientation: 3,              //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
     $ArrowNavigatorOptions: {         //[Optional] Options to specify and enable arrow navigator or not

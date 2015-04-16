@@ -467,76 +467,147 @@ Mobile
  /* Curiosity Nav
 * --------------------------------------- */
 
-.nav-wrapper {
-	display: none;
-	position:absolute;
-	top:1000px;
-	left:10%;
-	width: 940px;
-	height: 263px;
-	z-index: 10;
-	background-image: url("../images/curiosity-nav.jpg");
-	background-repeat: no-repeat;;
-	background-position: left top;
-		input {
-			width: 265px;
-    		border: 1px solid #ccc;
-    		padding: 8px;
-    		font-size: 15px;
-    		transition: width 0.2s;
-   			 -webkit-appearance: none;
-  		}
-  &.nav-wrapper-moving {
-  	//height: 100px;
-  }
+// .nav-wrapper {
+// 	display: none;
+// 	position:absolute;
+// 	top:1000px;
+// 	left:10%;
+// 	width: 940px;
+// 	height: 263px;
+// 	z-index: 10;
+// 	background-image: url("../images/curiosity-nav.jpg");
+// 	background-repeat: no-repeat;;
+// 	background-position: left top;
+// 		input {
+// 			width: 265px;
+//     		border: 1px solid #ccc;
+//     		padding: 8px;
+//     		font-size: 15px;
+//     		transition: width 0.2s;
+//    			 -webkit-appearance: none;
+//   		}
+//   &.nav-wrapper-moving {
+    
+//   }
+// }
+
+
+// #curiosity-nav {
+// 	position: absolute;
+// 	bottom: 0;
+// 	height: 26px;
+// 	z-index: 70;
+// 	width: 100%;
+// 	padding: 0;
+// 	margin:0;
+// 		li {
+// 			display:inline-block;
+// 			margin: 0px;
+// 			color: #000;
+// 			background:#fff;
+// 			background: rgba(255,255,255, 0.5);
+//             	a {
+//             		display:block;
+//             		padding: 13px 5px;
+//             		text-decoration:none;
+//             		color: #000;
+//             	}
+//             	&.active {
+//             		background:#666;
+// 					background: rgba(0,0,0, 0.5);
+// 					color: #fff;
+//             			a {
+//             				display:block;
+//             				padding: 13px 5px;
+//             				color: #fff;
+//             					&:hover {
+//             						color: #000;
+//             					}
+//             			}
+//             	}
+//             	&:hover {
+//     				background: rgba(255,255,255, 0.8);
+//     			}
+//                 &[data-menuanchor='00'] {
+//                     display: none;
+//                 } 
+//     	}           
+// }
+
+// .map-wrapper {
+
+// }
+
+.mars-nav-wrapper {
+    width: 100%;
+    height: 126px;
+    z-index: 10;
+    background-image: url("../images/curiosity-nav.jpg");
+    background-repeat: no-repeat;;
+    background-position: left top;
+        &.nav-wrapper-moving {
+    
+        }
+    .map-wrapper {
+        min-height: 106px;
+    }
+
+    #mars-curiosity-nav {
+        height: 20px;
+        z-index: 70;
+        width: 100%;
+        padding: 0;
+        margin:0;
+            li {
+                display:inline-block;
+                float: left;
+                margin: 0px;
+                color: #000;
+                background:transparent;
+                    a {
+                        display:block;
+                        font-size: 1em;
+                        padding: 2px 5px;
+                        text-decoration:none;
+                        color: #000;
+                        background: #fff;
+                        border-right: solid 1px #9d9d9d;
+                            &:hover {
+                                background:#000;
+                                color: #fff;
+                            }
+                    }
+                        &.active {
+                            
+                                a {
+                                    display:block;
+                                    padding: 2px 5px;
+                                    background:#000;
+                                    color: #fff;
+                                        &:hover {
+                                            color: #fff;
+                                        }
+                                }
+                        }
+                &:hover {
+                    background: #000;
+                }
+                &[data-menuanchor='00'] {
+                    display: none;
+                } 
+                &:last-child {
+                    a {
+                        border-right: none;
+                    }
+                }
+        }           
+}
+
 }
 
 
-#curiosity-nav {
-	position: absolute;
-	bottom: 0;
-	height: 26px;
-	z-index: 70;
-	width: 100%;
-	padding: 0;
-	margin:0;
-		li {
-			display:inline-block;
-			margin: 0px;
-			color: #000;
-			background:#fff;
-			background: rgba(255,255,255, 0.5);
-            	a {
-            		display:block;
-            		padding: 13px 5px;
-            		text-decoration:none;
-            		color: #000;
-            	}
-            	&.active {
-            		background:#666;
-					background: rgba(0,0,0, 0.5);
-					color: #fff;
-            			a {
-            				display:block;
-            				padding: 13px 5px;
-            				color: #fff;
-            					&:hover {
-            						color: #000;
-            					}
-            			}
-            	}
-            	&:hover {
-    				background: rgba(255,255,255, 0.8);
-    			}
-                // &[data-menuanchor='00'] {
-                //     display: none;
-                // } 
-    	}           
-}
 
-.map-wrapper {
 
-}
 
 /* Defining each section background and styles
 * --------------------------------------- */
@@ -592,18 +663,26 @@ Mobile
         }
         .fishback {
             margin-top: 20px;
-            padding: 0px 0px 16px 45px;
-            background-image: url("../images/curiosity-fishback.png");
-            background-position: center left;
-            background-repeat: no-repeat;
-                a {
-                    color: #5b4b20;
-                    text-decoration: none;
-                    font-weight: 700;
-                        &:hover {
-                            text-decoration: underline;
+            ul  {
+                margin: 0;
+                padding: 0;
+                li {
+                    float: left;
+                    list-style: none;
+                    padding: 0px 0px 16px 45px;
+                    background-image: url("../images/curiosity-fishback.png");
+                    background-position: center left;
+                    background-repeat: no-repeat;
+                    a {
+                        color: #5b4b20;
+                        text-decoration: none;
+                        font-weight: 700;
+                            &:hover {
+                                text-decoration: underline;
+                            }
                         }
                 }
+            }
         }
 }
 

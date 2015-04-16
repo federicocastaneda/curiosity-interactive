@@ -394,56 +394,51 @@ Mobile
     margin-top: 12px; } }
  /* Curiosity Nav
 * --------------------------------------- */
-.nav-wrapper {
-  display: none;
-  position: absolute;
-  top: 1000px;
-  left: 10%;
-  width: 940px;
-  height: 263px;
+.mars-nav-wrapper {
+  width: 100%;
+  height: 126px;
   z-index: 10;
   background-image: url("../images/curiosity-nav.jpg");
   background-repeat: no-repeat;
   background-position: left top; }
-  .nav-wrapper input {
-    width: 265px;
-    border: 1px solid #ccc;
-    padding: 8px;
-    font-size: 15px;
-    transition: width 0.2s;
-    -webkit-appearance: none; }
-
-#curiosity-nav {
-  position: absolute;
-  bottom: 0;
-  height: 26px;
-  z-index: 70;
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-  #curiosity-nav li {
-    display: inline-block;
-    margin: 0px;
-    color: #000;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.5); }
-    #curiosity-nav li a {
-      display: block;
-      padding: 13px 5px;
-      text-decoration: none;
-      color: #000; }
-    #curiosity-nav li.active {
-      background: #666;
-      background: rgba(0, 0, 0, 0.5);
-      color: #fff; }
-      #curiosity-nav li.active a {
+  .mars-nav-wrapper .map-wrapper {
+    min-height: 106px; }
+  .mars-nav-wrapper #mars-curiosity-nav {
+    height: 20px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+    .mars-nav-wrapper #mars-curiosity-nav li {
+      display: inline-block;
+      float: left;
+      margin: 0px;
+      color: #000;
+      background: transparent; }
+      .mars-nav-wrapper #mars-curiosity-nav li a {
         display: block;
-        padding: 13px 5px;
+        font-size: 1em;
+        padding: 2px 5px;
+        text-decoration: none;
+        color: #000;
+        background: #fff;
+        border-right: solid 1px #9d9d9d; }
+        .mars-nav-wrapper #mars-curiosity-nav li a:hover {
+          background: #000;
+          color: #fff; }
+      .mars-nav-wrapper #mars-curiosity-nav li.active a {
+        display: block;
+        padding: 2px 5px;
+        background: #000;
         color: #fff; }
-        #curiosity-nav li.active a:hover {
-          color: #000; }
-    #curiosity-nav li:hover {
-      background: rgba(255, 255, 255, 0.8); }
+        .mars-nav-wrapper #mars-curiosity-nav li.active a:hover {
+          color: #fff; }
+      .mars-nav-wrapper #mars-curiosity-nav li:hover {
+        background: #000; }
+      .mars-nav-wrapper #mars-curiosity-nav li[data-menuanchor='00'] {
+        display: none; }
+      .mars-nav-wrapper #mars-curiosity-nav li:last-child a {
+        border-right: none; }
 
 /* Defining each section background and styles
 * --------------------------------------- */
@@ -483,17 +478,23 @@ Mobile
     max-height: 303px;
     margin: 0px 0px 20px 20px; }
   .section .fishback {
-    margin-top: 20px;
-    padding: 0px 0px 16px 45px;
-    background-image: url("../images/curiosity-fishback.png");
-    background-position: center left;
-    background-repeat: no-repeat; }
-    .section .fishback a {
-      color: #5b4b20;
-      text-decoration: none;
-      font-weight: 700; }
-      .section .fishback a:hover {
-        text-decoration: underline; }
+    margin-top: 20px; }
+    .section .fishback ul {
+      margin: 0;
+      padding: 0; }
+      .section .fishback ul li {
+        float: left;
+        list-style: none;
+        padding: 0px 0px 16px 45px;
+        background-image: url("../images/curiosity-fishback.png");
+        background-position: center left;
+        background-repeat: no-repeat; }
+        .section .fishback ul li a {
+          color: #5b4b20;
+          text-decoration: none;
+          font-weight: 700; }
+          .section .fishback ul li a:hover {
+            text-decoration: underline; }
 
 .section:nth-child(odd) {
   background-color: #f2ede6; }
