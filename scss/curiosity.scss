@@ -692,11 +692,12 @@ Mobile
             }
         }
         .cont-b {
-            display: block;
+            display: flex;
             width: 100%;
             float: left;
                 .cont-b-content {
                     display: block;
+                    margin: 0 auto;
                         .cont-b-image {
                             display: block;
                                 ul.cont-b-gallery {
@@ -712,19 +713,19 @@ Mobile
                                                     max-width: 249px;
                                                     max-height: 249px;
                                                 }
-                                                div.img-caption {
-                                                    display: block;
-                                                    width: 100%;
-                                                    clear: both;
-                                                    background: #000;
-                                                        {
-                                                            p {
-                                                                color: #fff;
-                                                                padding: 5px;
-                                                                font-size: small;
-                                                            }
-                                                        }
-                                                }
+                                                // div.img-caption {
+                                                //     display: block;
+                                                //     width: 100%;
+                                                //     clear: both;
+                                                //     background: #000;
+                                                //         {
+                                                //             p {
+                                                //                 color: #fff;
+                                                //                 padding: 5px;
+                                                //                 font-size: small;
+                                                //             }
+                                                //         }
+                                                // }
                                         }
                                 }
                         }

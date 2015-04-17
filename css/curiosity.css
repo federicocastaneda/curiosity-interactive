@@ -495,11 +495,12 @@ Mobile
           .section .fishback ul li a:hover {
             text-decoration: underline; }
   .section .cont-b {
-    display: block;
+    display: flex;
     width: 100%;
     float: left; }
     .section .cont-b .cont-b-content {
-      display: block; }
+      display: block;
+      margin: 0 auto; }
       .section .cont-b .cont-b-content .cont-b-image {
         display: block; }
         .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery {
