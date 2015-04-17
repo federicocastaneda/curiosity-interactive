@@ -713,19 +713,21 @@ Mobile
                                                     max-width: 249px;
                                                     max-height: 249px;
                                                 }
-                                                // div.img-caption {
-                                                //     display: block;
-                                                //     width: 100%;
-                                                //     clear: both;
-                                                //     background: #000;
-                                                //         {
-                                                //             p {
-                                                //                 color: #fff;
-                                                //                 padding: 5px;
-                                                //                 font-size: small;
-                                                //             }
-                                                //         }
-                                                // }
+                                                div.img-caption {
+                                                    display: block;
+                                                    width: 100%;
+                                                    clear: both;
+                                                    background: #000;
+                                                        
+                                                            p {
+                                                                color: #fff;
+                                                                padding: 5px;
+                                                                font-size: small;
+                                                            }       
+                                                }
+                                                &.caption-li {
+                                                    width: 99.3%;
+                                                }
                                         }
                                 }
                         }

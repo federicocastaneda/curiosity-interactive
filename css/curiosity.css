@@ -515,6 +515,17 @@ Mobile
             .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li img {
               max-width: 249px;
               max-height: 249px; }
+            .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li div.img-caption {
+              display: block;
+              width: 100%;
+              clear: both;
+              background: #000; }
+              .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li div.img-caption p {
+                color: #fff;
+                padding: 5px;
+                font-size: small; }
+            .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li.caption-li {
+              width: 99.3%; }
 
 .section:nth-child(odd) {
   background-color: #f2ede6; }
