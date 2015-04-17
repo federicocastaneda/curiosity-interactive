@@ -40,7 +40,7 @@ $(document).ready(function(){
       }
         };
 
-  var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+  //var jssor_slider1 = new $JssorSlider$("slider1_container", options);
 
   // $("#mars-nav-wrapper").stick_in_parent({
   //   parent: '#fullpage',
