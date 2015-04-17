@@ -525,7 +525,8 @@ Mobile
                 padding: 5px;
                 font-size: small; }
             .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li.caption-li {
-              width: 99.3%; }
+              width: 99.3%;
+              display: none; }
 
 .section:nth-child(odd) {
   background-color: #f2ede6; }
