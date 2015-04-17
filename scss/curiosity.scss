@@ -600,7 +600,7 @@ Mobile
                 &:hover {
                     background: #000;
                 }
-                &[data-menuanchor='00'] {
+                &[data-menuanchor='Section0'] {
                     display: none;
                 } 
                 &:last-child {
@@ -690,6 +690,45 @@ Mobile
                         }
                 }
             }
+        }
+        .cont-b {
+            display: block;
+            width: 100%;
+            float: left;
+                .cont-b-content {
+                    display: block;
+                        .cont-b-image {
+                            display: block;
+                                ul.cont-b-gallery {
+                                    margin: 0;
+                                    padding: 0;
+                                    float: left;
+                                        li {
+                                            list-style: none;
+                                            float: left;
+                                            padding: 0;
+                                            margin-right: 7px;
+                                                img {
+                                                    max-width: 249px;
+                                                    max-height: 249px;
+                                                }
+                                                div.img-caption {
+                                                    display: block;
+                                                    width: 100%;
+                                                    clear: both;
+                                                    background: #000;
+                                                        {
+                                                            p {
+                                                                color: #fff;
+                                                                padding: 5px;
+                                                                font-size: small;
+                                                            }
+                                                        }
+                                                }
+                                        }
+                                }
+                        }
+                }
         }
 }
 

@@ -435,7 +435,7 @@ Mobile
           color: #fff; }
       .mars-nav-wrapper #mars-curiosity-nav li:hover {
         background: #000; }
-      .mars-nav-wrapper #mars-curiosity-nav li[data-menuanchor='00'] {
+      .mars-nav-wrapper #mars-curiosity-nav li[data-menuanchor='Section0'] {
         display: none; }
       .mars-nav-wrapper #mars-curiosity-nav li:last-child a {
         border-right: none; }
@@ -494,6 +494,26 @@ Mobile
           font-weight: 700; }
           .section .fishback ul li a:hover {
             text-decoration: underline; }
+  .section .cont-b {
+    display: block;
+    width: 100%;
+    float: left; }
+    .section .cont-b .cont-b-content {
+      display: block; }
+      .section .cont-b .cont-b-content .cont-b-image {
+        display: block; }
+        .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery {
+          margin: 0;
+          padding: 0;
+          float: left; }
+          .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li {
+            list-style: none;
+            float: left;
+            padding: 0;
+            margin-right: 7px; }
+            .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li img {
+              max-width: 249px;
+              max-height: 249px; }
 
 .section:nth-child(odd) {
   background-color: #f2ede6; }
