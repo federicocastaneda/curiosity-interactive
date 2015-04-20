@@ -43,7 +43,9 @@ $(document).ready(function(){
         };
 
   var jssor_slider1 = new $JssorSlider$("slider1_container", options);
-  var jssor_slider1 = new $JssorSlider$("slider2_container", options);
+  var jssor_slider2 = new $JssorSlider$("slider2_container", options);
+  var jssor_slider3 = new $JssorSlider$("slider3_container", options); 
+  var jssor_slider4 = new $JssorSlider$("slider4_container", options); 
 
   // $("#mars-nav-wrapper").stick_in_parent({
   //   parent: 'body'
