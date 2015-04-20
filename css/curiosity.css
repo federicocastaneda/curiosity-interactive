@@ -394,6 +394,9 @@ Mobile
     margin-top: 12px; } }
  /* Curiosity Nav
 * --------------------------------------- */
+@media (max-width: 1280px) {
+  .mars-nav-wrapper {
+    left: 10% !important; } }
 .mars-nav-wrapper.mars-nav-wrapper-moving {
   position: fixed;
   z-index: 99;
@@ -402,7 +405,7 @@ Mobile
 .mars-nav-wrapper {
   position: absolute;
   top: 40px;
-  left: 10%;
+  left: 20%;
   width: 100%;
   height: 126px;
   z-index: 10;
