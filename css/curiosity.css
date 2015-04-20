@@ -521,10 +521,10 @@ Mobile
             list-style: none;
             float: left;
             padding: 0;
-            margin-right: 7px; }
+            margin-right: 2px; }
             .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li img {
-              max-width: 249px;
-              max-height: 249px; }
+              max-width: 245px !important;
+              max-height: 245px !important; }
             .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li div.img-caption {
               display: block;
               width: 100%;
