@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
-      if (scroll > 40) {
+      if (scroll > 0) {
         $("#mars-nav-wrapper").css({"position": "fixed", "top": "40px"}).addClass("nav-wrapper-moving");
       } else {
         $("#mars-nav-wrapper").css({"position": "absolute", "top": "40px"}).removeClass("nav-wrapper-moving");
