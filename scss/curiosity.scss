@@ -653,6 +653,7 @@ Mobile
         .cont-l {
             float: left;
             width: 45%;
+            margin-bottom: 10px;
                 .cont-l-content {
 
                 }
@@ -665,8 +666,9 @@ Mobile
             justify-content: center;
                 .cont-r-content {
                     padding: 10% 0;
+                      text-align: center;
                         img {
-                            max-width: 80%
+                            max-width: 80% !important;
                         }
                 }
         }        

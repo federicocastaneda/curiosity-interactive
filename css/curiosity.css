@@ -472,7 +472,8 @@ Mobile
       width: 100% !important; }
   .section .cont-l {
     float: left;
-    width: 45%; }
+    width: 45%;
+    margin-bottom: 10px; }
   .section .cont-r {
     float: right;
     width: 55%;
@@ -480,9 +481,10 @@ Mobile
     align-items: center;
     justify-content: center; }
     .section .cont-r .cont-r-content {
-      padding: 10% 0; }
+      padding: 10% 0;
+      text-align: center; }
       .section .cont-r .cont-r-content img {
-        max-width: 80%; }
+        max-width: 80% !important; }
   .section .video {
     max-height: 303px;
     margin: 0px 0px 20px 20px; }
