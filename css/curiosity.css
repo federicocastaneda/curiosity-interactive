@@ -497,6 +497,7 @@ Mobile
       .section .fishback ul li {
         list-style: none;
         padding: 0px 0px 16px 45px;
+        margin-bottom: 5px;
         background-image: url("../images/curiosity-fishback.png");
         background-position: center left;
         background-repeat: no-repeat; }
@@ -547,10 +548,10 @@ Mobile
 .fw-section-content {
   width: 80%;
   margin: 0 auto; }
-  .intro p,
-  .fw-section-content p {
-    font-size: 1.4em;
-    line-height: 1.4em; }
+
+.fw-section-content p {
+  font-size: 1.6em;
+  line-height: 1.6em; }
 
 #section0 h1,
 #section0 h2,
