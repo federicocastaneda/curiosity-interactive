@@ -801,11 +801,20 @@ Mobile
 		}		
 }
 
-// #section4 {
-//     background-image: url("../images/03_Oct/sol3_rocknest_pano.jpg");
-// 	background-repeat: no-repeat;
-// 	background-size: cover;
-// }
+#section8 {
+    background-image: url("../images/08_Nov/msa20120804-full-full.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+        .cont-l {
+            background-color: #fff;
+                .cont-l-content {
+                    padding: 10px;
+                }
+        }
+        div.tweet {
+            border: none !important;
+        }
+}
 
 /* Custom Slider
 * --------------------------------------- */

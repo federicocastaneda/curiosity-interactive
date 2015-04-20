@@ -577,6 +577,17 @@ Mobile
   padding: 1% 0% 1% 0% !important;
   background-color: #f2ede6; }
 
+#section8 {
+  background-image: url("../images/08_Nov/msa20120804-full-full.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #section8 .cont-l {
+    background-color: #fff; }
+    #section8 .cont-l .cont-l-content {
+      padding: 10px; }
+  #section8 div.tweet {
+    border: none !important; }
+
 /* Custom Slider
 * --------------------------------------- */
 .jssora03l,
