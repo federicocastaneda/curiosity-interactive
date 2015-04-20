@@ -542,6 +542,10 @@ Mobile
     .mars-nav-wrapper {
         left: 10% !important;
     }
+    .intro,
+    .fw-section-content {
+        width: 80% !important;
+    }    
 }
 
 .mars-nav-wrapper.mars-nav-wrapper-moving {
@@ -553,7 +557,7 @@ Mobile
 .mars-nav-wrapper {
     position: absolute;
     top: 40px;
-    left: 20%;
+    left: 23%;
     //width: 100%;
     height: 126px;
     z-index: 10;
@@ -754,7 +758,7 @@ Mobile
 
 .intro,
 .fw-section-content {
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
 }
 

@@ -396,7 +396,11 @@ Mobile
 * --------------------------------------- */
 @media (max-width: 1280px) {
   .mars-nav-wrapper {
-    left: 10% !important; } }
+    left: 10% !important; }
+
+  .intro,
+  .fw-section-content {
+    width: 80% !important; } }
 .mars-nav-wrapper.mars-nav-wrapper-moving {
   position: fixed;
   z-index: 99;
@@ -405,7 +409,7 @@ Mobile
 .mars-nav-wrapper {
   position: absolute;
   top: 40px;
-  left: 20%;
+  left: 23%;
   height: 126px;
   z-index: 10;
   background-image: url("../images/curiosity-nav.jpg");
@@ -546,7 +550,7 @@ Mobile
 
 .intro,
 .fw-section-content {
-  width: 80%;
+  width: 60%;
   margin: 0 auto; }
 
 .fw-section-content p {
