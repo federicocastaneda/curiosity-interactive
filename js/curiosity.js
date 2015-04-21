@@ -9,29 +9,158 @@ $(document).ready(function(){
       }
   });
 
-// var header = $("#section1");
-//   $(window).scroll(function() {    
-//     var scroll = $(window).scrollTop();
-//        if (scroll >= window.innerHeight) {
-//           header.addClass("mars-nav-wrapper-moving");
-//         } else {
-//           header.removeClass("mars-nav-wrapper-moving");
-//         }
+// $("#mars-nav-wrapper .Section1").click( function() {
+//     if($(this).is(".active")) {
+//         $("#mars-nav-wrapper").css("background-image","url(../images/map/map_sol_001.png)");
+//     }
 // });
-
 
   $("#fullpage").fullpage({
     menu: '#mars-curiosity-nav',
     anchors: ['Section0', 'Section1', 'Section2', 'Section3', 'Section4', 'Section5', 'Section6', 'Section7', 'Section8', 'Section9', 'Section10', 'Section11', 'Section12', 'Section13', 'Section14', 'Section15', 'Section16', 'Section17', 'Section18', 'Section19', 'Section20'],
-    //sectionsColor: ['#FFFFFF', '#F2EDE6', '#FFFFFF', '#FFFFFF', '#F2EDE6'],
     navigationPosition: 'none',
     navigationTooltips: ['Curiosity', 'Sol 1', 'Sol 16', 'Sol 61', 'Sol 100', 'Sol 182', 'Sol 289', 'Sol 402', 'Sol 182', 'Sol 447', 'Sol 473', 'Sol 477', 'Sol 488', 'Sol 662', 'Sol 669', 'Sol 689', 'Sol 711', 'Sol 746', 'Sol 783', 'Sol 839', 'Sol 935', 'Summer 2015'],
     responsive: 900,
     autoScrolling: false,
     fitToSection: false,
-    //fixedElements: 'header, #mars-curiosity-nav',
+
+
+onLeave: function(index, nextIndex, direction){
+            var leavingSection = $(this);
+
+            if(index == 1 && direction =='down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_001.png')");
+            }
+            if(index == 1 && direction =='up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_001.png')");
+            }
+
+            else if(index == 2 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_017.png')");
+            }
+            else if(index == 2 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_017.png')");
+            }
+
+            else if(index == 3 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_061.png')");
+            }
+            else if(index == 3 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_061.png')");
+            }
+
+            else if(index == 4 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_099.png')");
+            }
+            else if(index == 4 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_099.png')");
+            }
+
+            else if(index == 5 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_183.png')");
+            }
+            else if(index == 5 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_183.png')");
+            }
+
+            else if(index == 6 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_290.png')");
+            }
+            else if(index == 6 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_290.png')");
+            }
+
+            else if(index == 7 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_402.png')");
+            }
+            else if(index == 7 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_402.png')");
+            }
+
+            else if(index == 8 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_447.png')");
+            }
+            else if(index == 8 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_402.png')");
+            }
+
+            else if(index == 9 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_472.png')");
+            }
+            else if(index == 9 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_447.png')");
+            }
+
+            else if(index == 10 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_477.png')");
+            }
+            else if(index == 10 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_472.png')");
+            }
+
+            else if(index == 11 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_488.png')");
+            }
+            else if(index == 11 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_477.png')");
+            }
+
+            else if(index == 12 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_662.png')");
+            }
+            else if(index == 12 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_488.png')");
+            }
+
+            else if(index == 13 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_669.png')");
+            }
+            else if(index == 13 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_402.png')");
+            }
+
+            else if(index == 14 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_669.png')");
+            }
+            else if(index == 14 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_662.png')");
+            }
+
+            else if(index == 15 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_689.png')");
+            }
+            else if(index == 15 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_669.png')");
+            }
+
+            else if(index == 16 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_711.png')");
+            }
+            else if(index == 16 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_689.png')");
+            }
+
+            else if(index == 17 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_746.png')");
+            }
+            else if(index == 17 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_711.png')");
+            }
+
+            else if(index == 18 && direction == 'down'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_839.png')");
+            }
+            else if(index == 18 && direction == 'up'){
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_746.png')");
+            }
+
+        }
+
+
+
   });
 
+  // Declaring the jssor instance options
   var options = {
     $DragOrientation: 3,              //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
     $ArrowNavigatorOptions: {         //[Optional] Options to specify and enable arrow navigator or not
@@ -42,15 +171,36 @@ $(document).ready(function(){
       }
         };
 
+  // Declaring the jssor slider instances
   var jssor_slider1 = new $JssorSlider$("slider1_container", options);
   var jssor_slider2 = new $JssorSlider$("slider2_container", options);
   var jssor_slider3 = new $JssorSlider$("slider3_container", options); 
   var jssor_slider4 = new $JssorSlider$("slider4_container", options); 
   var jssor_slider5 = new $JssorSlider$("slider5_container", options); 
 
-  // $("#mars-nav-wrapper").stick_in_parent({
-  //   parent: 'body'
-  // });
-  //$("#mars-nav-wrapper").stick_in_parent();
+// Window load event
+$(window).load(function() {
+  // Intialize width/height
+  var widest = 0;
+  // Loop through equalize elements
+  $(".cap1").each(function() {
+    // Set width/height to widest/tallest elements
+    widest = $(this).width() > widest ? $(this).width() : widest;
+  }).width(widest);
+
+  $(".cap2").each(function() {
+    // Set width/height to widest/tallest elements
+    widest = $(this).width() > widest ? $(this).width() : widest;
+  }).width(widest);
+
+  $(".cap3").each(function() {
+    // Set width/height to widest/tallest elements
+    widest = $(this).width() > widest ? $(this).width() : widest;
+  }).width(widest);
+
+
+
+});
+
 
 });

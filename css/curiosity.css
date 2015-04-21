@@ -405,11 +405,12 @@ Mobile
   left: 24%;
   height: 126px;
   z-index: 10;
-  background-image: url("../images/curiosity-nav.jpg");
+  background-image: url("../images/map/map_sol_001.png");
   background-repeat: no-repeat;
-  background-position: left top; }
+  background-position: left top;
+  transition: all 0.5s ease; }
   .mars-nav-wrapper .map-wrapper {
-    min-height: 106px; }
+    min-height: 105px; }
   .mars-nav-wrapper #mars-curiosity-nav {
     height: 20px;
     z-index: 70;
@@ -529,18 +530,13 @@ Mobile
             .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li img {
               max-width: 245px !important;
               max-height: 245px !important; }
-            .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li div.img-caption {
-              display: block;
-              width: 100%;
-              clear: both;
-              background: #000; }
-              .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li div.img-caption p {
-                color: #fff;
-                padding: 5px;
-                font-size: small; }
-            .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li.caption-li {
-              width: 99.3%;
-              display: none; }
+  .section div.cont-caption {
+    display: block;
+    background: #000; }
+    .section div.cont-caption p {
+      color: #fff;
+      padding: 5px;
+      font-size: small; }
 
 .section:nth-child(odd) {
   background-color: #f2ede6; }
