@@ -668,8 +668,20 @@ Mobile
                 .cont-r-content {
                     padding: 10% 0;
                       text-align: center;
-                        img {
+                        .cont-r-content-wrapper {
                             max-width: 80% !important;
+                            margin: 0 auto;
+                                .cont-caption-content {
+                                    background: #000;
+                                        p {
+                                            color: #fff;
+                                            padding: 5px;
+                                            font-size: small;
+                                        } 
+                                }
+                        }
+                        img {
+                            //max-width: 80% !important;
                         }
                 }
                 &.two-images {
