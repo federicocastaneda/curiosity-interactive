@@ -671,6 +671,11 @@ Mobile
                             max-width: 80% !important;
                         }
                 }
+                &.two-images {
+                    div {
+                        display: block;
+                    }
+                }
         }        
 
         .video {
