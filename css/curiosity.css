@@ -532,10 +532,20 @@ Mobile
               max-height: 245px !important; }
   .section div.cont-caption {
     display: block;
+    clear: both;
     background: #000; }
     .section div.cont-caption p {
       color: #fff;
       padding: 5px;
+      font-size: small; }
+  .section div.gallery-caption {
+    display: block;
+    max-width: 245px;
+    background: #000; }
+    .section div.gallery-caption .gallery-caption-content {
+      padding: 5px; }
+    .section div.gallery-caption p {
+      color: #fff;
       font-size: small; }
 
 .section:nth-child(odd) {

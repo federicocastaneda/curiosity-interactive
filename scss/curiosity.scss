@@ -736,7 +736,7 @@ Mobile
         div.cont-caption {
             display: block;
             //width: 100%;
-            //clear: both;
+            clear: both;
             background: #000;
                 p {
                     color: #fff;
@@ -745,6 +745,20 @@ Mobile
                 }       
                 .cont-caption-content {
                     
+                }
+        }
+        div.gallery-caption {
+            // clear: both;
+            display: block;
+            max-width: 245px;
+            // float: left;
+            background: #000;
+                .gallery-caption-content {
+                    padding: 5px;
+                }
+                p {
+                    color: #fff;
+                    font-size: small;
                 }
         }
 }
