@@ -588,6 +588,17 @@ Mobile
   #section8 div.tweet {
     border: none !important; }
 
+#section16 {
+  background-image: url("../images/16_Sept/sept11_bottom_mtsharp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #section16 .cont-l {
+    background-color: #fff; }
+    #section16 .cont-l .cont-l-content {
+      padding: 10px; }
+  #section16 div.tweet {
+    border: none !important; }
+
 /* Custom Slider
 * --------------------------------------- */
 .jssora03l,

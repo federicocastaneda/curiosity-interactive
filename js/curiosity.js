@@ -46,6 +46,7 @@ $(document).ready(function(){
   var jssor_slider2 = new $JssorSlider$("slider2_container", options);
   var jssor_slider3 = new $JssorSlider$("slider3_container", options); 
   var jssor_slider4 = new $JssorSlider$("slider4_container", options); 
+  var jssor_slider5 = new $JssorSlider$("slider5_container", options); 
 
   // $("#mars-nav-wrapper").stick_in_parent({
   //   parent: 'body'
