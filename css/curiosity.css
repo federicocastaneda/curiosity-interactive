@@ -599,8 +599,7 @@ Mobile
   background-image: url("../images/02_Aug/sol2_tire_tracks.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: left bottom;
-  padding-bottom: 140px; }
+  background-position: left bottom; }
   #section2 .cont-b {
     min-height: 300px; }
 
@@ -608,8 +607,7 @@ Mobile
   background-image: url("../images/03_Oct/sol3_rocknest_pano.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: left bottom;
-  padding-bottom: 180px; }
+  background-position: left bottom; }
   #section3 .cont-b {
     min-height: 300px; }
 
