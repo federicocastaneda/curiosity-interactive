@@ -595,6 +595,13 @@ Mobile
   padding: 1% 0% 1% 0% !important;
   background-color: #f2ede6; }
 
+#section2 {
+  background-image: url("../images/02_Aug/sol2_tire_tracks.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left bottom;
+  padding-bottom: 180px; }
+
 #section3 {
   background-image: url("../images/03_Oct/sol3_rocknest_pano.jpg");
   background-repeat: no-repeat;
