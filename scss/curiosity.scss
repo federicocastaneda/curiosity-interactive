@@ -899,6 +899,29 @@ Mobile
 .jssora03r.jssora03rdn { 
     background-position: -303px -33px; 
 }
+[u='slides'],
+.slide-wrapper {
+    padding-bottom: 47px;
+} 
+.slider-caption {
+    position: absolute; 
+    bottom: 0px; 
+    left: 0px; 
+    width: 100%;
+    height: auto;
+    background: #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+        p {
+            color: #fff;
+            font-size: small;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+}
+// .slider-caption-content {
+//     padding-bottom: 5px;
+// }
 
 /* MEDIA QUERIES
 * --------------------------------------- */
