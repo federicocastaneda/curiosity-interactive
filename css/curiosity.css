@@ -544,7 +544,7 @@ Mobile
       width: 100%;
       max-height: 50px;
       display: block;
-      position: relative;
+      position: absolute;
       bottom: 0;
       background: #000; }
       .section .cont-b .bottom-caption .bottom-caption-content {
