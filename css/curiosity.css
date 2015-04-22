@@ -675,6 +675,15 @@ Mobile
   #section16 div.tweet {
     border: none !important; }
 
+#section20 .cont-b {
+  position: relative;
+  bottom: 0;
+  min-height: 500px;
+  background-image: url("../images/19_Spring-Summer/springsummer_bottom_landscape.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left bottom; }
+
 /* Custom Slider
 * --------------------------------------- */
 .jssora03l,
