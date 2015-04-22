@@ -755,6 +755,7 @@ Mobile
                 position: absolute;
                 bottom: 0;
                 background: #000;
+                padding: 5px 0px;
                     .bottom-caption-content {
                         margin: 0 auto;
                             p {
@@ -902,6 +903,19 @@ Mobile
         }
         div.tweet {
             border: none !important;
+        }
+}
+
+#section12 {
+
+        .cont-b {
+            position: relative;
+            bottom: 0;
+            min-height: 323px;
+            background-image: url("../images/12_June/june17_bottom_stereo.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: left bottom;
         }
 }
 
