@@ -748,6 +748,20 @@ Mobile
                                 }
                         }
                 }
+            .bottom-caption {
+                width: 100%;
+                max-height: 50px;
+                display: block;
+                position: relative;
+                bottom: 0;
+                background: #000;
+                    .bottom-caption-content {
+                        margin: 0 auto;
+                            p {
+                                color: #fff;
+                            }
+                    }
+            }
         }
         div.cont-caption {
             display: block;

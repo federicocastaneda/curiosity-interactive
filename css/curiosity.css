@@ -540,6 +540,17 @@ Mobile
             .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li img {
               max-width: 245px !important;
               max-height: 245px !important; }
+    .section .cont-b .bottom-caption {
+      width: 100%;
+      max-height: 50px;
+      display: block;
+      position: relative;
+      bottom: 0;
+      background: #000; }
+      .section .cont-b .bottom-caption .bottom-caption-content {
+        margin: 0 auto; }
+        .section .cont-b .bottom-caption .bottom-caption-content p {
+          color: #fff; }
   .section div.cont-caption {
     display: block;
     clear: both;
