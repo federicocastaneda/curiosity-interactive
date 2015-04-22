@@ -601,6 +601,8 @@ Mobile
   background-size: 100%;
   background-position: left bottom;
   padding-bottom: 140px; }
+  #section2 .cont-b {
+    min-height: 300px; }
 
 #section3 {
   background-image: url("../images/03_Oct/sol3_rocknest_pano.jpg");
@@ -608,6 +610,8 @@ Mobile
   background-size: 100%;
   background-position: left bottom;
   padding-bottom: 180px; }
+  #section3 .cont-b {
+    min-height: 300px; }
 
 #section8 {
   background-image: url("../images/08_Nov/nov8_bottom_team.jpg");
