@@ -492,7 +492,8 @@ Mobile
           .section .cont-r .cont-r-content .cont-r-content-wrapper .cont-caption-content p {
             color: #fff;
             padding: 5px;
-            font-size: small; }
+            font-size: small;
+            text-align: left; }
         .section .cont-r .cont-r-content .cont-r-content-wrapper .cont-r-vertical {
           margin-bottom: 3px; }
     .section .cont-r.two-images div {
