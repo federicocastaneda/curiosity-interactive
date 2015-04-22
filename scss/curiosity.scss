@@ -864,12 +864,15 @@ Mobile
 }
 
 #section3 {
-    background-image: url("../images/03_Oct/sol3_rocknest_pano.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: left bottom;
+
         .cont-b {
-            min-height: 320px;
+            position: relative;
+            bottom: 0;
+            min-height: 350px;
+            background-image: url("../images/03_Oct/sol3_rocknest_pano.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: left bottom;
         }
 }
 
