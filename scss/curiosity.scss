@@ -792,6 +792,18 @@ Mobile
                     font-size: small;
                 }
         }
+        .full-width-caption {
+                background: #000;
+                width: 80%;
+                margin: 0 auto;
+                    .full-width-caption-content {
+                        padding: 5px;
+                            p {
+                                color: #fff;
+                                text-align: left;;
+                            }
+                    }
+        }
 }
 
 .section:nth-child(odd) {

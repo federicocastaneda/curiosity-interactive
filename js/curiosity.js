@@ -217,6 +217,10 @@ $(window).load(function() {
     tallest = $(this).height() > tallest ? $(this).height() : tallest;
   }).height(tallest);
 
+  // $(".height3").each(function() {
+  //   tallest = $(this).height() > tallest ? $(this).height() : tallest;
+  // }).height(tallest);
+
 
 });
 

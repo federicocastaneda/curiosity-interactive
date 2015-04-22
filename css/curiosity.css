@@ -569,6 +569,15 @@ Mobile
     .section div.gallery-caption p {
       color: #fff;
       font-size: small; }
+  .section .full-width-caption {
+    background: #000;
+    width: 80%;
+    margin: 0 auto; }
+    .section .full-width-caption .full-width-caption-content {
+      padding: 5px; }
+      .section .full-width-caption .full-width-caption-content p {
+        color: #fff;
+        text-align: left; }
 
 .section:nth-child(odd) {
   background-color: #f2ede6; }
