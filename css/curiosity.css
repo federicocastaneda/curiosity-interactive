@@ -625,6 +625,15 @@ Mobile
   background-size: 100%;
   background-position: left bottom; }
 
+#section3 .cont-b {
+  position: relative;
+  bottom: 0;
+  min-height: 323px;
+  background-image: url("../images/07_Sept/PIA17361.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left bottom; }
+
 #section8 {
   background-image: url("../images/08_Nov/nov8_bottom_team.jpg");
   background-repeat: no-repeat;
