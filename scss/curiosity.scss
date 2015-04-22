@@ -852,7 +852,7 @@ Mobile
 #section2 {
     
         .cont-b {
-            position: absolute;
+            position: relative;
             bottom: 0;
             min-height: 258px;
             background-image: url("../images/02_Aug/sol2_tire_tracks.jpg");
@@ -971,4 +971,8 @@ Mobile
     .fw-section-content {
         width: 78% !important;
     }    
+    .bottom-caption-content {
+        margin: 0 auto;
+        width: 78% !important;
+    }
 }
