@@ -60,105 +60,105 @@ onLeave: function(index, nextIndex, direction){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_183.png')");
             }
             else if(index == 6 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_183.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_099.png')");
             }
 
             else if(index == 6 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_290.png')");
             }
             else if(index == 7 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_290.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_183.png')");
             }
 
             else if(index == 7 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_402.png')");
             }
             else if(index == 8 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_402.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_290.png')");
             }
 
             else if(index == 8 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_447.png')");
             }
             else if(index == 9 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_447.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_402.png')");
             }
 
             else if(index == 9 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_472.png')");
             }
             else if(index == 10 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_472.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_447.png')");
             }
 
             else if(index == 10 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_477.png')");
             }
             else if(index == 11 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_477.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_472.png')");
             }
 
             else if(index == 11 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_488.png')");
             }
             else if(index == 12 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_488.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_477.png')");
             }
 
             else if(index == 12 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_662.png')");
             }
             else if(index == 13 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_662.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_488.png')");
             }
 
             else if(index == 13 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_669.png')");
             }
             else if(index == 14 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_669.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_662.png')");
             }
 
             else if(index == 14 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_689.png')");
             }
             else if(index == 15 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_689.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_669.png')");
             }
 
             else if(index == 15 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_711.png')");
             }
             else if(index == 16 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_711.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_689.png')");
             }
 
             else if(index == 16 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_746.png')");
             }
             else if(index == 17 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_746.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_711.png')");
             }
 
             else if(index == 17 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_783.png')");
             }
             else if(index == 18 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_783.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_746.png')");
             }
 
             else if(index == 18 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_839.png')");
             }
             else if(index == 19 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_839.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_783.png')");
             }
 
             else if(index == 19 && direction == 'down'){
                 $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_935.png')");
             }
             else if(index == 20 && direction == 'up'){
-                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_935.png')");
+                $("#mars-nav-wrapper").css("background-image","url('../curiosity-interactive/images/map/map_sol_839.png')");
             }
 
 
