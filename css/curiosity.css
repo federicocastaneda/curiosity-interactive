@@ -493,6 +493,8 @@ Mobile
             color: #fff;
             padding: 5px;
             font-size: small; }
+        .section .cont-r .cont-r-content .cont-r-content-wrapper .cont-r-vertical {
+          margin-bottom: 3px; }
     .section .cont-r.two-images div {
       display: block; }
   .section .video {

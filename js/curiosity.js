@@ -182,23 +182,36 @@ onLeave: function(index, nextIndex, direction){
 $(window).load(function() {
   // Intialize width/height
   var widest = 0;
-  // Loop through equalize elements
+  var tallest = 0;
+  // same width
   $(".cap1").each(function() {
     // Set width/height to widest/tallest elements
     widest = $(this).width() > widest ? $(this).width() : widest;
   }).width(widest);
 
-  // $(".cap2").each(function() {
-  //   widest = $(this).width() > widest ? $(this).width() : widest;
-  // }).width(widest);
-
-  $(".cap3").each(function() {
+  $(".cap2").each(function() {
     widest = $(this).width() > widest ? $(this).width() : widest;
   }).width(widest);
 
+  // $(".cap3").each(function() {
+  //   widest = $(this).width() > widest ? $(this).width() : widest;
+  // }).width(widest);
+
+  // same height
+  $(".height1").each(function() {
+  // Set width/height to widest/tallest elements
+    tallest = $(this).height() > tallest ? $(this).height() : tallest;
+  }).height(tallest);
+
+  $(".height2").each(function() {
+  // Set width/height to widest/tallest elements
+    tallest = $(this).height() > tallest ? $(this).height() : tallest;
+  }).height(tallest);
 
 
 });
+
+
 
 
 });
