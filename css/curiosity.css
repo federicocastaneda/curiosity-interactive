@@ -592,6 +592,9 @@ Mobile
   width: 52%;
   margin: 0 auto; }
 
+.fp-tableCell {
+  width: 1054px; }
+
 .fw-section-content p {
   font-size: 1.6em;
   line-height: 1.6em; }
