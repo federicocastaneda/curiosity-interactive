@@ -645,16 +645,14 @@ Mobile
   background-size: 100%;
   background-position: left bottom; }
 
-#section8 {
+#section8 .cont-b {
+  position: relative;
+  bottom: 0;
+  min-height: 323px;
   background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/08_Nov/nov8_bottom_team.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
-  #section8 .cont-l {
-    background-color: #fff; }
-    #section8 .cont-l .cont-l-content {
-      padding: 10px; }
-  #section8 div.tweet {
-    border: none !important; }
+  background-size: 100%;
+  background-position: left bottom; }
 
 #section12 .cont-b {
   position: relative;
