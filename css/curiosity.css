@@ -480,8 +480,6 @@ Mobile
     display: flex;
     align-items: center;
     justify-content: center; }
-    .section .cont-r img {
-      width: 100%; }
     .section .cont-r .cont-r-content {
       padding: 10% 0;
       text-align: center; }
@@ -497,6 +495,8 @@ Mobile
             text-align: left; }
         .section .cont-r .cont-r-content .cont-r-content-wrapper .cont-r-vertical {
           margin-bottom: 3px; }
+      .section .cont-r .cont-r-content img {
+        width: 100%; }
     .section .cont-r.two-images div {
       display: block; }
   .section .video {
