@@ -480,6 +480,8 @@ Mobile
     display: flex;
     align-items: center;
     justify-content: center; }
+    .section .cont-r img {
+      width: 100%; }
     .section .cont-r .cont-r-content {
       padding: 10% 0;
       text-align: center; }
