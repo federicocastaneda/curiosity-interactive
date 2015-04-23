@@ -548,8 +548,9 @@ Mobile
 .mars-nav-wrapper {
     position: absolute;
     top: 40px;
-    left: 24%;
-    //width: 100%;
+    left: 0;
+    right: 0;
+    width: 1024px;
     height: 126px;
     z-index: 10;
     background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_001.png");
@@ -1043,9 +1044,11 @@ Mobile
 /* MEDIA QUERIES
 * --------------------------------------- */
 @media (max-width : 1280px){
-    .mars-nav-wrapper {
-        left: 10% !important;
-    }
+    // .mars-nav-wrapper {
+    // left: 0;
+    // right: 0;
+    // width: 1024px;
+    // }
     .intro,
     .fw-section-content {
         width: 78% !important;
