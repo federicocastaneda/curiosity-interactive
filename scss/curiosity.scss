@@ -948,16 +948,27 @@ Mobile
 }
 
 #section20 {
-
-        .cont-b {
-            position: relative;
-            bottom: 0;
-            min-height: 700px;
-            background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/19_Spring-Summer/springsummer_bottom_landscape.jpg");
-            background-repeat: no-repeat;
-            background-size: 100%;
-            background-position: left bottom;
+        // .cont-b {
+        //     position: relative;
+        //     bottom: 0;
+        //     min-height: 700px;
+        //     background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/19_Spring-Summer/springsummer_bottom_landscape.jpg");
+        //     background-repeat: no-repeat;
+        //     background-size: 100%;
+        //     background-position: left bottom;
+        // }
+    background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/19_Spring-Summer/springsummer_bottom_landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+        .cont-l {
+            background-color: #fff;
+                .cont-l-content {
+                    padding: 10px;
+                }
         }
+        div.tweet {
+            border: none !important;
+        }        
 }
 
 /* Custom Slider

@@ -676,14 +676,16 @@ Mobile
   #section16 div.tweet {
     border: none !important; }
 
-#section20 .cont-b {
-  position: relative;
-  bottom: 0;
-  min-height: 700px;
+#section20 {
   background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/19_Spring-Summer/springsummer_bottom_landscape.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: left bottom; }
+  background-size: cover; }
+  #section20 .cont-l {
+    background-color: #fff; }
+    #section20 .cont-l .cont-l-content {
+      padding: 10px; }
+  #section20 div.tweet {
+    border: none !important; }
 
 /* Custom Slider
 * --------------------------------------- */
