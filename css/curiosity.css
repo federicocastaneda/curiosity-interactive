@@ -405,7 +405,7 @@ Mobile
   left: 24%;
   height: 126px;
   z-index: 10;
-  background-image: url("../images/map/map_sol_001.png");
+  background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_001.png");
   background-repeat: no-repeat;
   background-position: left top;
   transition: all 0.5s ease; }
@@ -451,7 +451,7 @@ Mobile
 /* Defining each section background and styles
 * --------------------------------------- */
 #section0 {
-  background-image: url("../images/curiosity-portrait.jpg");
+  background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/curiosity-portrait.jpg");
   padding: 0 0 0 0;
   background-position: center; }
 
@@ -510,7 +510,7 @@ Mobile
         list-style: none;
         padding: 0px 0px 13px 35px;
         margin-bottom: 5px;
-        background-image: url("../images/curiosity-fishback-small.png");
+        background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/curiosity-fishback-small.png");
         background-position: center left;
         background-repeat: no-repeat; }
         .section .fishback ul li a {
@@ -621,7 +621,7 @@ Mobile
   position: relative;
   bottom: 0;
   min-height: 285px;
-  background-image: url("../images/02_Aug/sol2_tire_tracks.jpg");
+  background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/02_Aug/sol2_tire_tracks.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: left bottom; }
@@ -630,7 +630,7 @@ Mobile
   position: relative;
   bottom: 0;
   min-height: 323px;
-  background-image: url("../images/03_Oct/sol3_rocknest_pano.jpg");
+  background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/03_Oct/sol3_rocknest_pano.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: left bottom; }
@@ -639,13 +639,13 @@ Mobile
   position: relative;
   bottom: 0;
   min-height: 323px;
-  background-image: url("../images/07_Sept/PIA17361.jpg");
+  background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/07_Sept/PIA17361.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: left bottom; }
 
 #section8 {
-  background-image: url("../images/08_Nov/nov8_bottom_team.jpg");
+  background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/08_Nov/nov8_bottom_team.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   #section8 .cont-l {
@@ -659,13 +659,13 @@ Mobile
   position: relative;
   bottom: 0;
   min-height: 323px;
-  background-image: url("../images/12_June/june17_bottom_stereo.jpg");
+  background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/12_June/june17_bottom_stereo.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: left bottom; }
 
 #section16 {
-  background-image: url("../images/16_Sept/sept11_bottom_mtsharp.jpg");
+  background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/16_Sept/sept11_bottom_mtsharp.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   #section16 .cont-l {
@@ -679,7 +679,7 @@ Mobile
   position: relative;
   bottom: 0;
   min-height: 700px;
-  background-image: url("../images/19_Spring-Summer/springsummer_bottom_landscape.jpg");
+  background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/19_Spring-Summer/springsummer_bottom_landscape.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: left bottom; }
@@ -695,7 +695,7 @@ Mobile
   height: 55px;
   top: 123px;
   cursor: pointer;
-  background: url("../images/a03.png") no-repeat;
+  background: url("http://federicocastaneda.github.io/curiosity-interactive/images/a03.png") no-repeat;
   overflow: hidden; }
 
 .jssora03l {
