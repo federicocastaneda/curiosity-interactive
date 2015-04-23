@@ -814,10 +814,13 @@ Mobile
 }
 
 .intro,
-.fw-section-content,
-.bottom-caption-content {
-	width: 52%;
+.fw-section-content {
+	width: 1054px;
 	margin: 0 auto;
+}
+
+.bottom-caption-content {
+    margin: 0 auto;
 }
 
 .fp-tableCell {
@@ -1054,12 +1057,12 @@ Mobile
     // right: 0;
     // width: 1024px;
     // }
-    .intro,
-    .fw-section-content {
-        width: 78% !important;
-    }    
-    .bottom-caption-content {
-        margin: 0 auto;
-        width: 78% !important;
-    }
+    // .intro,
+    // .fw-section-content {
+    //     width: 78% !important;
+    // }    
+    // .bottom-caption-content {
+    //     margin: 0 auto;
+    //     width: 78% !important;
+    // }
 }

@@ -587,9 +587,11 @@ Mobile
   background-color: #f2ede6; }
 
 .intro,
-.fw-section-content,
+.fw-section-content {
+  width: 1054px;
+  margin: 0 auto; }
+
 .bottom-caption-content {
-  width: 52%;
   margin: 0 auto; }
 
 .fp-tableCell {
@@ -747,13 +749,5 @@ Mobile
 
 /* MEDIA QUERIES
 * --------------------------------------- */
-@media (max-width: 1280px) {
-  .intro,
-  .fw-section-content {
-    width: 78% !important; }
-
-  .bottom-caption-content {
-    margin: 0 auto;
-    width: 78% !important; } }
 
 /*# sourceMappingURL=curiosity.css.map */
