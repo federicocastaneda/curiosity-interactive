@@ -1074,9 +1074,12 @@ Mobile
         .cont-l,
         .cont-r {
             width: 50%;
-            padding: 8% 20%;
+            padding: 2% 20%;
             float: none;
             display: block;
+                .cont-r-content {
+                    padding: 0;
+                }
         }
     }
 }
