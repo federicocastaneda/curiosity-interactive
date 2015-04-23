@@ -1053,7 +1053,7 @@ Mobile
 
 /* MEDIA QUERIES
 * --------------------------------------- */
-@media (max-width : 1280px){
+@media (max-width : 1053px){
     // .mars-nav-wrapper {
     // left: 0;
     // right: 0;
@@ -1067,4 +1067,14 @@ Mobile
     //     margin: 0 auto;
     //     width: 78% !important;
     // }
+    #mars-nav-wrapper {
+        display: none !important;
+    }
+    .section {
+        .cont-l,
+        .cont-r {
+            width: 50%;
+            padding: 8% 20%;
+        }
+    }
 }

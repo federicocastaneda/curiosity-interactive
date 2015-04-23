@@ -751,5 +751,13 @@ Mobile
 
 /* MEDIA QUERIES
 * --------------------------------------- */
+@media (max-width: 1053px) {
+  #mars-nav-wrapper {
+    display: none !important; }
+
+  .section .cont-l,
+  .section .cont-r {
+    width: 50%;
+    padding: 8% 20%; } }
 
 /*# sourceMappingURL=curiosity.css.map */
