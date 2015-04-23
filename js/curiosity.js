@@ -1,5 +1,28 @@
 $(document).ready(function(){
 
+// var imgList = [
+//                 'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_001.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_017.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_061.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_099.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_183.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_290.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_402.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_447.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_472.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_477.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_488.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_662.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_669.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_689.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_711.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_746.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_783.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_839.png'
+//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_935.png'
+//             ];
+// $(imgList).preloadImages();
+
   $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
       if (scroll > 0) {
@@ -9,11 +32,6 @@ $(document).ready(function(){
       }
   });
 
-// $("#mars-nav-wrapper .Section1").click( function() {
-//     if($(this).is(".active")) {
-//         $("#mars-nav-wrapper").css("background-image","url(../images/map/map_sol_001.png)");
-//     }
-// });
 
   $("#fullpage").fullpage({
     menu: '#mars-curiosity-nav',
@@ -22,7 +40,7 @@ $(document).ready(function(){
     navigationTooltips: ['Curiosity', 'Sol 0', 'Sol 16', 'Sol 61', 'Sol 100', 'Sol 182', 'Sol 289', 'Sol 402', 'Sol 182', 'Sol 447', 'Sol 473', 'Sol 477', 'Sol 488', 'Sol 662', 'Sol 669', 'Sol 689', 'Sol 711', 'Sol 746', 'Sol 783', 'Sol 839', 'Sol 935', 'Summer 2015'],
     //responsive: 900,
     autoScrolling: false,
-    fitToSection: false,
+    fitToSection: true,
 
 
 onLeave: function(index, nextIndex, direction){

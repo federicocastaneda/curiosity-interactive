@@ -175,11 +175,11 @@ html.js div.contextual-links-wrapper {
     overflow: hidden;
     width: 40px;
 }
-img {
+#zone-nav-wrapper img {
     height: auto !important;
     max-width: 100%;
 }
-img {
+#zone-nav-wrapper img {
     height: auto;
     max-width: 100% !important;
 }
@@ -641,7 +641,7 @@ Mobile
             font-size: 2em;
         }
         .fw-section {
-            padding-top: 3.6%;
+            //padding-top: 3.6%;
         }
             
         div.tweet {

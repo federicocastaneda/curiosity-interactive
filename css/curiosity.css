@@ -155,11 +155,11 @@ html.js div.contextual-links-wrapper {
   overflow: hidden;
   width: 40px; }
 
-img {
+#zone-nav-wrapper img {
   height: auto !important;
   max-width: 100%; }
 
-img {
+#zone-nav-wrapper img {
   height: auto;
   max-width: 100% !important; }
 
@@ -464,8 +464,6 @@ Mobile
     font-size: 2.8em; }
   .section h2 {
     font-size: 2em; }
-  .section .fw-section {
-    padding-top: 3.6%; }
   .section div.tweet {
     border-bottom: solid 1px #000;
     padding-bottom: 10px;
