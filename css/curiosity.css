@@ -560,6 +560,7 @@ Mobile
             color: #fff;
             padding: 5px;
             font-size: 13px;
+            line-height: 16px;
             text-align: left; }
         .section .cont-r .cont-r-content .cont-r-content-wrapper .cont-r-vertical {
           margin-bottom: 3px; }
@@ -623,7 +624,8 @@ Mobile
         width: 1054px; }
         .section .cont-b .bottom-caption .bottom-caption-content p {
           color: #fff;
-          font-size: 13px; }
+          font-size: 13px;
+          line-height: 16px; }
   .section div.cont-caption {
     display: block;
     clear: both;
@@ -631,7 +633,8 @@ Mobile
     .section div.cont-caption p {
       color: #fff;
       padding: 5px;
-      font-size: 13px; }
+      font-size: 13px;
+      line-height: 16px; }
   .section div.gallery-caption {
     display: block;
     max-width: 230px;
@@ -640,7 +643,8 @@ Mobile
       padding: 5px; }
     .section div.gallery-caption p {
       color: #fff;
-      font-size: 13px; }
+      font-size: 13px;
+      line-height: 16px; }
   .section .full-width-caption {
     background: #000;
     width: 80%;
@@ -650,7 +654,8 @@ Mobile
       .section .full-width-caption .full-width-caption-content p {
         color: #fff;
         text-align: left;
-        font-size: 13px; }
+        font-size: 13px;
+        line-height: 16px; }
 
 .section:nth-child(odd) {
   background-color: #f2ede6; }
@@ -816,6 +821,7 @@ Mobile
   .slider-caption p {
     color: #fff;
     font-size: 13px;
+    line-height: 16px;
     padding-left: 5px;
     padding-right: 5px;
     text-align: left; }
