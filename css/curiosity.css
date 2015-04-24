@@ -658,7 +658,8 @@ Mobile
         line-height: 16px; }
   .section .caption-credit {
     text-transform: uppercase;
-    text-align: right !important; }
+    text-align: right !important;
+    font-size: 10px !important; }
 
 .section:nth-child(odd) {
   background-color: #f2ede6; }
