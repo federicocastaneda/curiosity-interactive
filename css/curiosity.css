@@ -461,9 +461,29 @@ Mobile
 
 /* Structure
 * --------------------------------------- */
-.section {
-  background-size: cover;
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6,
+#section7,
+#section8,
+#section9,
+#section10,
+#section11,
+#section12,
+#section13,
+#section14,
+#section15,
+#section16,
+#section17,
+#section18,
+#section19 {
   height: auto !important; }
+
+.section {
+  background-size: cover; }
   .section h1 {
     font-size: 2.8em; }
   .section h2 {
