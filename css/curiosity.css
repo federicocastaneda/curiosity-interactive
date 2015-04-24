@@ -23,9 +23,9 @@ h4 {
 
 p,
 a {
-  font-size: 1em;
+  font-size: 16px;
   font-weight: normal;
-  line-height: 1em; }
+  line-height: 22px; }
 
  /* SSP masthead
 * --------------------------------------- */
@@ -526,9 +526,9 @@ Mobile
 .section {
   background-size: cover; }
   .section h1 {
-    font-size: 2.8em; }
+    font-size: 30px; }
   .section h2 {
-    font-size: 2em; }
+    font-size: 22px; }
   .section .fw-section {
     height: auto !important; }
   .section div.tweet {
@@ -671,11 +671,6 @@ Mobile
 #section0 p,
 #section0 a {
   color: #fff; }
-#section0 h1 {
-  font-size: 4.8em; }
-#section0 p,
-#section0 a {
-  font-size: 1.8em; }
 #section0 .fp-tableCell {
   vertical-align: bottom; }
 #section0 .intro {
@@ -693,8 +688,8 @@ Mobile
   padding: 2% 0% 2% 0% !important;
   background-color: #f2ede6; }
 #section1 .fw-section-content p {
-  font-size: 1.2em;
-  line-height: 1.2em; }
+  font-size: 20px;
+  line-height: 26px; }
 
 #section2 .cont-b {
   position: relative;
