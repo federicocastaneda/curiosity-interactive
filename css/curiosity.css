@@ -656,6 +656,8 @@ Mobile
         text-align: left;
         font-size: 13px;
         line-height: 16px; }
+  .section .caption-credit {
+    text-transform: capitalize; }
 
 .section:nth-child(odd) {
   background-color: #f2ede6; }
