@@ -826,6 +826,68 @@ Mobile
     display: block; }
     .section .cont-l .cont-r-content,
     .section .cont-r .cont-r-content {
-      padding: 0; } }
+      padding: 0; }
+
+  #section1,
+  #section2,
+  #section3,
+  #section4,
+  #section5,
+  #section6,
+  #section7,
+  #section8,
+  #section9,
+  #section10,
+  #section11,
+  #section12,
+  #section13,
+  #section14,
+  #section15,
+  #section16,
+  #section17,
+  #section18,
+  #section19 {
+    height: auto !important; }
+    #section1 .fp-tableCell,
+    #section2 .fp-tableCell,
+    #section3 .fp-tableCell,
+    #section4 .fp-tableCell,
+    #section5 .fp-tableCell,
+    #section6 .fp-tableCell,
+    #section7 .fp-tableCell,
+    #section8 .fp-tableCell,
+    #section9 .fp-tableCell,
+    #section10 .fp-tableCell,
+    #section11 .fp-tableCell,
+    #section12 .fp-tableCell,
+    #section13 .fp-tableCell,
+    #section14 .fp-tableCell,
+    #section15 .fp-tableCell,
+    #section16 .fp-tableCell,
+    #section17 .fp-tableCell,
+    #section18 .fp-tableCell,
+    #section19 .fp-tableCell {
+      height: auto !important;
+      padding-bottom: 50px; }
+
+  #section2 .intro,
+  #section3 .intro,
+  #section4 .intro,
+  #section5 .intro,
+  #section6 .intro,
+  #section7 .intro,
+  #section8 .intro,
+  #section9 .intro,
+  #section10 .intro,
+  #section11 .intro,
+  #section12 .intro,
+  #section13 .intro,
+  #section14 .intro,
+  #section15 .intro,
+  #section16 .intro,
+  #section17 .intro,
+  #section18 .intro,
+  #section19 .intro {
+    padding-top: 50px; } }
 
 /*# sourceMappingURL=curiosity.css.map */
