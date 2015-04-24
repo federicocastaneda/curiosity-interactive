@@ -641,10 +641,6 @@ Mobile
 .fp-tableCell {
   width: 1054px; }
 
-.fw-section-content p {
-  font-size: 1.6em;
-  line-height: 1.6em; }
-
 #section0 h1,
 #section0 h2,
 #section0 h3,
@@ -669,6 +665,9 @@ Mobile
 #section1 .fw-section {
   padding: 1% 0% 1% 0% !important;
   background-color: #f2ede6; }
+#section1 .fw-section-content p {
+  font-size: 1.2em;
+  line-height: 1.2em; }
 
 #section2 .cont-b {
   position: relative;

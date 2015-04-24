@@ -856,12 +856,7 @@ Mobile
     //height: auto !important;
 }
 
-.fw-section-content {
-    p {
-        font-size: 1.6em;
-        line-height: 1.6em;
-    }
-}
+
 
 #section0 {
 	h1,
@@ -899,7 +894,13 @@ Mobile
     .fw-section {
 			padding: 1% 0% 1% 0% !important;
             background-color: #f2ede6;
-		}		
+		}
+        .fw-section-content {
+            p {
+                font-size: 1.2em;
+                line-height: 1.2em;
+        }
+}		
 }
 
 #section2 {
