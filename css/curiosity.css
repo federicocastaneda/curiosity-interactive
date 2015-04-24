@@ -501,6 +501,26 @@ Mobile
   #section18 .fp-tableCell,
   #section19 .fp-tableCell {
     height: auto !important; }
+  #section1 .intro,
+  #section2 .intro,
+  #section3 .intro,
+  #section4 .intro,
+  #section5 .intro,
+  #section6 .intro,
+  #section7 .intro,
+  #section8 .intro,
+  #section9 .intro,
+  #section10 .intro,
+  #section11 .intro,
+  #section12 .intro,
+  #section13 .intro,
+  #section14 .intro,
+  #section15 .intro,
+  #section16 .intro,
+  #section17 .intro,
+  #section18 .intro,
+  #section19 .intro {
+    padding-top: 170px; }
 
 .section {
   background-size: cover; }
