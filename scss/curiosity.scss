@@ -551,7 +551,7 @@ Mobile
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 1053px;
+    width: 1054px;
     height: 126px;
     z-index: 10;
     background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_001.png");
@@ -904,6 +904,11 @@ Mobile
 	.intro {
 			padding-bottom: 7%;
 		}
+    .curiosity-branding {
+        img {
+            //opacity: .8;
+        }
+    }
     p.intro-sub {
         font-size: 20px;
         line-height: 22px;
