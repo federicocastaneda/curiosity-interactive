@@ -910,8 +910,13 @@ Mobile
 }
 
 #section1 {
-    // background: url("http://federicocastaneda.github.io/curiosity-interactive/images/curiosity-section1-bg.jpg") scroll left top repeat-x;
-    // background-size: 100% 23%;
+    .cont-l,
+    .cont-r {
+        margin-top: 170px;
+    }
+    .cont-b {
+     margin-bottom: 170px;
+     }
 	.fp-tableCell {
 			vertical-align: top;
 		}	
