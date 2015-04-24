@@ -528,7 +528,8 @@ Mobile
   .section h1 {
     font-size: 30px; }
   .section h2 {
-    font-size: 22px; }
+    font-size: 22px;
+    line-height: 30px; }
   .section .fw-section {
     height: auto !important; }
   .section div.tweet {
