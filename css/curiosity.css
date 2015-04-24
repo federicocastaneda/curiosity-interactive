@@ -657,7 +657,8 @@ Mobile
         font-size: 13px;
         line-height: 16px; }
   .section .caption-credit {
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    text-align: right; }
 
 .section:nth-child(odd) {
   background-color: #f2ede6; }
