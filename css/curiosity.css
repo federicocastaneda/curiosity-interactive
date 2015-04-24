@@ -481,6 +481,26 @@ Mobile
 #section18,
 #section19 {
   height: auto !important; }
+  #section1 .fp-tableCell,
+  #section2 .fp-tableCell,
+  #section3 .fp-tableCell,
+  #section4 .fp-tableCell,
+  #section5 .fp-tableCell,
+  #section6 .fp-tableCell,
+  #section7 .fp-tableCell,
+  #section8 .fp-tableCell,
+  #section9 .fp-tableCell,
+  #section10 .fp-tableCell,
+  #section11 .fp-tableCell,
+  #section12 .fp-tableCell,
+  #section13 .fp-tableCell,
+  #section14 .fp-tableCell,
+  #section15 .fp-tableCell,
+  #section16 .fp-tableCell,
+  #section17 .fp-tableCell,
+  #section18 .fp-tableCell,
+  #section19 .fp-tableCell {
+    height: auto !important; }
 
 .section {
   background-size: cover; }
@@ -619,8 +639,7 @@ Mobile
   margin: 0 auto; }
 
 .fp-tableCell {
-  width: 1054px;
-  height: auto !important; }
+  width: 1054px; }
 
 .fw-section-content p {
   font-size: 1.6em;

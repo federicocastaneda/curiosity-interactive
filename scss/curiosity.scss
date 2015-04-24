@@ -654,6 +654,9 @@ Mobile
 #section18,
 #section19 {
     height: auto !important;
+        .fp-tableCell {
+        height: auto !important;
+        }
 }
 
 .section {
@@ -850,7 +853,7 @@ Mobile
 
 .fp-tableCell {
     width: 1054px;
-    height: auto !important;
+    //height: auto !important;
 }
 
 .fw-section-content {
