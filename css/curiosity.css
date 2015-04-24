@@ -687,6 +687,10 @@ Mobile
   vertical-align: bottom; }
 #section0 .intro {
   padding-bottom: 7%; }
+#section0 .curiosity-branding {
+  padding-top: 20px; }
+  #section0 .curiosity-branding img {
+    opacity: .8; }
 #section0 p.intro-sub {
   font-size: 20px;
   line-height: 22px; }
