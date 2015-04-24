@@ -679,7 +679,8 @@ Mobile
 #section0 .intro {
   padding-bottom: 7%; }
 #section0 .authoring {
-  font-size: smaller; }
+  font-size: 11px;
+  margin-top: 10px; }
 
 #section1 .cont-l,
 #section1 .cont-r {
