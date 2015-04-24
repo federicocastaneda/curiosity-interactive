@@ -671,13 +671,18 @@ Mobile
 #section0 p,
 #section0 a {
   color: #fff; }
+#section0 h1 {
+  font-size: 60px; }
 #section0 .fp-tableCell {
   vertical-align: bottom; }
 #section0 .intro {
   padding-bottom: 7%; }
-#section0 .authoring {
-  font-size: 11px;
-  margin-top: 10px; }
+#section0 p.intro-sub {
+  font-size: 20px;
+  line-height: 22px; }
+#section0 p.authoring {
+  margin-top: 10px;
+  font-size: 11px; }
 
 #section1 .cont-l,
 #section1 .cont-r {
