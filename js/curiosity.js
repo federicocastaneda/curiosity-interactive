@@ -252,6 +252,10 @@ $(window).load(function() {
     widest = $(this).width() > widest ? $(this).width() : widest;
   }).width(widest);
 
+  $(".cap11").each(function() {
+    widest = $(this).width() > widest ? $(this).width() : widest;
+  }).width(widest);
+
   // same height
   $(".height1").each(function() {
   // Set width/height to widest/tallest elements
