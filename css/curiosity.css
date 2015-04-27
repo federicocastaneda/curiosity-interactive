@@ -876,8 +876,8 @@ Mobile
 
   .section .cont-l,
   .section .cont-r {
-    width: 50%;
-    padding: 2% 20%;
+    width: 100%;
+    padding: 2% 1%;
     float: none;
     display: block; }
     .section .cont-l .cont-r-content,
