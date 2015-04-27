@@ -1,27 +1,6 @@
 $(document).ready(function(){
 
-// var imgList = [
-//                 'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_001.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_017.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_061.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_099.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_183.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_290.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_402.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_447.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_472.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_477.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_488.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_662.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_669.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_689.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_711.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_746.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_783.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_839.png'
-//                 ,'http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_935.png'
-//             ];
-// $(imgList).preloadImages();
+
 
   $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
