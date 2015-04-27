@@ -1208,6 +1208,14 @@ Mobile
     .fp-tableCell {
         width: 100% !important;
     }
+    #Section1 {
+        ul.cont-b-gallery {
+            li {
+                float: none;
+                margin-bottom: 5px;
+            }
+        }
+    }
     #Section1,
     #Section2,
     #Section3,
