@@ -991,14 +991,22 @@ Mobile
   .cap2 {
     max-width: 100%; }
 
+  #Section1 .fw-section {
+    padding: 7% 0% 5% 5% !important; }
+
   #Section2 .cont-b,
   #Section3 .cont-b,
   #Section7 .cont-b,
   #Section8 .cont-b,
-  #Section12 .cont-b,
-  #Section16 .cont-b {
+  #Section12 .cont-b {
     background-size: cover;
     background-position: center center; }
+
+  #Section16 {
+    background-size: 100%;
+    background-position: center bottom; }
+    #Section16 .fp-tableCell {
+      padding-bottom: 83px; }
 
   #Section10 ul.cont-b-gallery img {
     max-width: 100% !important;

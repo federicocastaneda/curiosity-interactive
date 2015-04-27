@@ -1308,16 +1308,27 @@ Mobile
     .cap2 {
         max-width: 100%;
     }
+    #Section1 {
+        .fw-section {
+            padding: 7% 0% 5% 5% !important;
+        }
+    }
     #Section2,
     #Section3,
     #Section7,
     #Section8,
-    #Section12,
-    #Section16 {
+    #Section12 {
      .cont-b {
             background-size: cover;
             background-position: center center;
         }
+    }
+    #Section16 {
+        background-size: 100%;
+        background-position: center bottom;
+            .fp-tableCell {
+                padding-bottom: 83px;
+            }
     }
     #Section10 ul.cont-b-gallery img {
         max-width: 100% !important;
