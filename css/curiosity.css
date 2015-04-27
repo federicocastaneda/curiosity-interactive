@@ -670,7 +670,7 @@ Mobile
   background-color: #f2ede6; }
 
 .intro,
-.fw-Section-content {
+.fw-section-content {
   width: 1054px;
   margin: 0 auto; }
 
@@ -851,14 +851,14 @@ Mobile
   #mars-nav-wrapper {
     display: none !important; }
 
-  .Section .cont-l,
-  .Section .cont-r {
+  .section .cont-l,
+  .section .cont-r {
     width: 50%;
     padding: 2% 20%;
     float: none;
     display: block; }
-    .Section .cont-l .cont-r-content,
-    .Section .cont-r .cont-r-content {
+    .section .cont-l .cont-r-content,
+    .section .cont-r .cont-r-content {
       padding: 0; }
 
   #Section1,
