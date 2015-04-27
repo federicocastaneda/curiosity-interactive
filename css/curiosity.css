@@ -924,7 +924,8 @@ Mobile
     #Section18 .fp-tableCell,
     #Section19 .fp-tableCell {
       height: auto !important;
-      padding-bottom: 50px; }
+      padding-bottom: 50px;
+      width: 100%; }
 
   #Section2 .intro,
   #Section3 .intro,
