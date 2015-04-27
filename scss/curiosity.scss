@@ -1023,11 +1023,11 @@ Mobile
 
 #Section10 {
     ul.cont-b-gallery img {
-        max-width: 523px !important;
-        max-height: 523px !important;
+        max-width: 523px;
+        max-height: 523px;
     }
     div.gallery-caption {
-        max-width: 523px !important;
+        max-width: 523px;
     }
 }
 
@@ -1317,7 +1317,7 @@ Mobile
         }
     }
     #Section10 ul.cont-b-gallery img {
-        max-width: 100% important;
+        max-width: 100% !important;
         max-height: auto !important;
     }
 }

@@ -753,10 +753,10 @@ Mobile
   background-position: left bottom; }
 
 #Section10 ul.cont-b-gallery img {
-  max-width: 523px !important;
-  max-height: 523px !important; }
+  max-width: 523px;
+  max-height: 523px; }
 #Section10 div.gallery-caption {
-  max-width: 523px !important; }
+  max-width: 523px; }
 
 #Section12 .cont-b {
   position: relative;
@@ -998,7 +998,7 @@ Mobile
     background-position: center center; }
 
   #Section10 ul.cont-b-gallery img {
-    max-width: 100% important;
+    max-width: 100% !important;
     max-height: auto !important; } }
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 400px) and (orientation: portrait) {
