@@ -884,7 +884,7 @@ Mobile
     .section .cont-r .cont-r-content {
       padding: 0; }
 
-  .bottom-caption-content,
+  .section .cont-b .bottom-caption .bottom-caption-content,
   .fp-tableCell {
     width: 100%; }
 
