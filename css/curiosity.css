@@ -883,6 +883,9 @@ Mobile
     .section .cont-l .cont-r-content,
     .section .cont-r .cont-r-content {
       padding: 0; }
+  .section .cont-l-content,
+  .section .cont-r-content {
+    padding: 0% 5%; }
 
   .section .cont-b .bottom-caption .bottom-caption-content,
   .fp-tableCell {
