@@ -862,6 +862,11 @@ Mobile
 /* MEDIA QUERIES
 * --------------------------------------- */
 @media (max-width: 1053px) {
+  .intro,
+  .fw-section-content {
+    width: 100%;
+    margin: 0 auto; }
+
   #mars-nav-wrapper {
     display: none !important; }
 
