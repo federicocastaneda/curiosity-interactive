@@ -269,7 +269,7 @@ a.context-block {
     display: none !important;
 }
 
-#block-menu-menu-sections {
+#block-menu-menu-Sections {
     display: block;
     float: left;
 }
@@ -278,24 +278,24 @@ ul.menu {
     list-style: none outside none;
     text-align: left;
 }
-#block-menu-menu-sections ul.menu {
+#block-menu-menu-Sections ul.menu {
     height: 40px;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-#block-menu-menu-sections ul.menu {
+#block-menu-menu-Sections ul.menu {
     border-left: 1px solid #355673;
 }
 
-#block-menu-menu-sections ul.menu li {
+#block-menu-menu-Sections ul.menu li {
     display: block;
     float: left;
     margin: 0;
     padding: 0;
 }
-#block-menu-menu-sections ul.menu li a {
+#block-menu-menu-Sections ul.menu li a {
     border-right: 1px solid #369dbf;
     color: hsl(192, 30%, 87%);
     display: block;
@@ -311,23 +311,23 @@ ul.menu {
     		color: #fff;
     	}
 }
-#block-menu-menu-sections ul.menu li a {
+#block-menu-menu-Sections ul.menu li a {
     font-size: 15px;
     padding: 0 15px;
 }
 
-#block-menu-menu-sections ul.menu li.first a {
+#block-menu-menu-Sections ul.menu li.first a {
     padding: 0 10px;
     border-left: 1px solid #355673 ;
 }
 
-#block-menu-menu-sections ul.menu li {
+#block-menu-menu-Sections ul.menu li {
     display: block;
     float: left;
     margin: 0;
     padding: 0;
 }
-#block-menu-menu-sections ul.menu li a {
+#block-menu-menu-Sections ul.menu li a {
     border-right: 1px solid #355673;
     color: hsl(192, 30%, 87%);
     display: block;
@@ -340,25 +340,25 @@ ul.menu {
     padding: 0 10px;
     text-decoration: none;
 }
-#block-menu-menu-sections ul.menu li a {
+#block-menu-menu-Sections ul.menu li a {
     font-size: 15px;
     padding: 0 12px;
 }
-#block-menu-menu-sections ul.menu li.first a {
+#block-menu-menu-Sections ul.menu li.first a {
     padding: 0 10px;
 }
 
-#block-menu-menu-sections ul.menu li.last a {
+#block-menu-menu-Sections ul.menu li.last a {
     padding: 0 15px 0 14px;
 }
 
-#block-menu-menu-sections ul.menu li a.active, #block-menu-menu-sections ul.menu li a.active-trail {
+#block-menu-menu-Sections ul.menu li a.active, #block-menu-menu-Sections ul.menu li a.active-trail {
     background: none repeat scroll 0 0 #6c869d;
     color: white;
 }
 
 
-#block-menu-menu-sections ul.menu li {
+#block-menu-menu-Sections ul.menu li {
     display: block;
     float: left;
     margin: 0;
@@ -624,9 +624,9 @@ Mobile
 
 
 
-/* Defining each section background and styles
+/* Defining each Section background and styles
 * --------------------------------------- */
-#section0 {
+#Section0 {
 	background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/curiosity-portrait.jpg");
 	padding: 0 0 0 0;
 	background-position: center;
@@ -634,25 +634,25 @@ Mobile
 
 /* Structure
 * --------------------------------------- */
-#section1,
-#section2,
-#section3,
-#section4,
-#section5,
-#section6,
-#section7,
-#section8,
-#section9,
-#section10,
-#section11,
-#section12,
-#section13,
-#section14,
-#section15,
-#section16,
-#section17,
-#section18,
-#section19 {
+#Section1,
+#Section2,
+#Section3,
+#Section4,
+#Section5,
+#Section6,
+#Section7,
+#Section8,
+#Section9,
+#Section10,
+#Section11,
+#Section12,
+#Section13,
+#Section14,
+#Section15,
+#Section16,
+#Section17,
+#Section18,
+#Section19 {
     height: auto !important;
         .fp-tableCell {
         height: auto !important;
@@ -660,30 +660,30 @@ Mobile
         }
 }
 
-#section2,
-#section3,
-#section4,
-#section5,
-#section6,
-#section7,
-#section8,
-#section9,
-#section10,
-#section11,
-#section12,
-#section13,
-#section14,
-#section15,
-#section16,
-#section17,
-#section18,
-#section19 {
+#Section2,
+#Section3,
+#Section4,
+#Section5,
+#Section6,
+#Section7,
+#Section8,
+#Section9,
+#Section10,
+#Section11,
+#Section12,
+#Section13,
+#Section14,
+#Section15,
+#Section16,
+#Section17,
+#Section18,
+#Section19 {
         .intro {
             padding-top: 170px;
         }
 }
 
-.section {
+.Section {
 	background-size: cover;
     //
         h1 {
@@ -693,7 +693,7 @@ Mobile
             font-size: 22px;
             line-height: 30px;
         }
-        .fw-section {
+        .fw-Section {
             //padding-top: 3.6%;
             height: auto !important;
         }
@@ -882,12 +882,12 @@ Mobile
         }
 }
 
-.section:nth-child(odd) {
+.Section:nth-child(odd) {
     background-color: #f2ede6;
 }
 
 .intro,
-.fw-section-content {
+.fw-Section-content {
 	width: 1054px;
 	margin: 0 auto;
 }
@@ -903,7 +903,7 @@ Mobile
 
 
 
-#section0 {
+#Section0 {
 	h1,
 	h2,
 	h3,
@@ -937,7 +937,7 @@ Mobile
 	}
 }
 
-#section1 {
+#Section1 {
     .cont-l,
     .cont-r {
         margin-top: 60px;
@@ -948,11 +948,11 @@ Mobile
 	.fp-tableCell {
 			vertical-align: top;
 		}	
-    .fw-section {
+    .fw-Section {
 			padding: 2% 0% 2% 0% !important;
             background-color: #f2ede6;
 		}
-        .fw-section-content {
+        .fw-Section-content {
             p {
                 font-size: 20px;
                 line-height: 26px;
@@ -960,7 +960,7 @@ Mobile
 }		
 }
 
-#section2 {
+#Section2 {
     
         .cont-b {
             position: relative;
@@ -973,7 +973,7 @@ Mobile
         }
 }
 
-#section3 {
+#Section3 {
 
         .cont-b {
             position: relative;
@@ -986,7 +986,7 @@ Mobile
         }
 }
 
-#section7 {
+#Section7 {
 
         .cont-b {
             position: relative;
@@ -1000,7 +1000,7 @@ Mobile
 }
 
 
-#section8 {
+#Section8 {
  //    background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/08_Nov/nov8_bottom_team.jpg");
 	// background-repeat: no-repeat;
 	// background-size: cover;
@@ -1024,7 +1024,7 @@ Mobile
         }
 }
 
-#section12 {
+#Section12 {
 
         .cont-b {
             position: relative;
@@ -1037,7 +1037,7 @@ Mobile
         }
 }
 
-#section16 {
+#Section16 {
     background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/16_Sept/sept11_bottom_mtsharp.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1052,7 +1052,7 @@ Mobile
         }
 }
 
-#section20 {
+#Section20 {
         // .cont-b {
         //     position: relative;
         //     bottom: 0;
@@ -1112,14 +1112,14 @@ Mobile
 .jssora03r.jssora03rdn { 
     background-position: -303px -33px; 
 }
-#section4 [u='slides'],
-#section4 .slide-wrapper,
-#section13 [u='slides'],
-#section13 .slide-wrapper {
+#Section4 [u='slides'],
+#Section4 .slide-wrapper,
+#Section13 [u='slides'],
+#Section13 .slide-wrapper {
     padding-bottom: 58px !important;
 } 
-#section15 [u='slides'],
-#section15 .slide-wrapper {
+#Section15 [u='slides'],
+#Section15 .slide-wrapper {
     padding-bottom: 42px !important;
 } 
 
@@ -1158,7 +1158,7 @@ Mobile
     // width: 1024px;
     // }
     // .intro,
-    // .fw-section-content {
+    // .fw-Section-content {
     //     width: 78% !important;
     // }    
     // .bottom-caption-content {
@@ -1168,7 +1168,7 @@ Mobile
     #mars-nav-wrapper {
         display: none !important;
     }
-    .section {
+    .Section {
         .cont-l,
         .cont-r {
             width: 50%;
@@ -1180,25 +1180,25 @@ Mobile
                 }
         }
     }
-    #section1,
-    #section2,
-    #section3,
-    #section4,
-    #section5,
-    #section6,
-    #section7,
-    #section8,
-    #section9,
-    #section10,
-    #section11,
-    #section12,
-    #section13,
-    #section14,
-    #section15,
-    #section16,
-    #section17,
-    #section18,
-    #section19 {
+    #Section1,
+    #Section2,
+    #Section3,
+    #Section4,
+    #Section5,
+    #Section6,
+    #Section7,
+    #Section8,
+    #Section9,
+    #Section10,
+    #Section11,
+    #Section12,
+    #Section13,
+    #Section14,
+    #Section15,
+    #Section16,
+    #Section17,
+    #Section18,
+    #Section19 {
         height: auto !important;
             .fp-tableCell {
             height: auto !important;
@@ -1206,24 +1206,24 @@ Mobile
             }
     }
 
-    #section2,
-    #section3,
-    #section4,
-    #section5,
-    #section6,
-    #section7,
-    #section8,
-    #section9,
-    #section10,
-    #section11,
-    #section12,
-    #section13,
-    #section14,
-    #section15,
-    #section16,
-    #section17,
-    #section18,
-    #section19 {
+    #Section2,
+    #Section3,
+    #Section4,
+    #Section5,
+    #Section6,
+    #Section7,
+    #Section8,
+    #Section9,
+    #Section10,
+    #Section11,
+    #Section12,
+    #Section13,
+    #Section14,
+    #Section15,
+    #Section16,
+    #Section17,
+    #Section18,
+    #Section19 {
             .intro {
                 padding-top: 50px;
             }
