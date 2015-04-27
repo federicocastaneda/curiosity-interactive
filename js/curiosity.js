@@ -184,6 +184,31 @@ onLeave: function(index, nextIndex, direction){
   var jssor_slider4 = new $JssorSlider$("slider4_container", options); 
   var jssor_slider5 = new $JssorSlider$("slider5_container", options); 
 
+        function ScaleSlider() {
+            var parentWidth = $('#slider1_container').parent().width();
+            var parentWidth = $('#slider2_container').parent().width();
+            var parentWidth = $('#slider3_container').parent().width();
+            var parentWidth = $('#slider4_container').parent().width();
+            var parentWidth = $('#slider5_container').parent().width();
+            if (parentWidth) {
+                jssor_slider1.$ScaleWidth(parentWidth);
+                jssor_slider2.$ScaleWidth(parentWidth);
+                jssor_slider3.$ScaleWidth(parentWidth);
+                jssor_slider4.$ScaleWidth(parentWidth);
+                jssor_slider5.$ScaleWidth(parentWidth);
+            }
+            else
+                window.setTimeout(ScaleSlider, 30);
+        }
+        //Scale slider after document ready
+        ScaleSlider();
+                                        
+        //Scale slider while window load/resize/orientationchange.
+        $(window).bind("load", ScaleSlider);
+        $(window).bind("resize", ScaleSlider);
+        $(window).bind("orientationchange", ScaleSlider);
+        //responsive code end
+
 // Window load event
 $(window).load(function() {
   // Intialize width/height

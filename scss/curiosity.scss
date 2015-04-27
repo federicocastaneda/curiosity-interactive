@@ -1305,6 +1305,21 @@ Mobile
     .cap2 {
         max-width: 100%;
     }
+    #Section2,
+    #Section3,
+    #Section7,
+    #Section8,
+    #Section12,
+    #Section16 {
+     .cont-b {
+            background-size: cover;
+            background-position: center center;
+        }
+    }
+    #Section10 ul.cont-b-gallery img {
+        max-width: 100% important;
+        max-height: auto !important;
+    }
 }
 
 /* Portrait */

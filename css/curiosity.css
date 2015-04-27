@@ -986,7 +986,20 @@ Mobile
 
   .cap1,
   .cap2 {
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  #Section2 .cont-b,
+  #Section3 .cont-b,
+  #Section7 .cont-b,
+  #Section8 .cont-b,
+  #Section12 .cont-b,
+  #Section16 .cont-b {
+    background-size: cover;
+    background-position: center center; }
+
+  #Section10 ul.cont-b-gallery img {
+    max-width: 100% important;
+    max-height: auto !important; } }
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 400px) and (orientation: portrait) {
   .cont-content.cap3,
