@@ -949,6 +949,9 @@ Mobile
   #Section17 .intro,
   #Section18 .intro,
   #Section19 .intro {
-    padding-top: 50px; } }
+    padding-top: 50px; }
+
+  div.jssorslide {
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=curiosity.css.map */
