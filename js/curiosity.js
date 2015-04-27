@@ -211,10 +211,12 @@ $(window).load(function() {
   var widest = 0;
   var tallest = 0;
   // same width
-  $(".cap1").each(function() {
-    // Set width/height to widest/tallest elements
-    widest = $(this).width() > widest ? $(this).width() : widest;
-  }).width(widest);
+  if($(window).width() >= 400){
+    $(".cap1").each(function() {
+      // Set width/height to widest/tallest elements
+      widest = $(this).width() > widest ? $(this).width() : widest;
+    }).width(widest);
+  }
 
   $(".cap2").each(function() {
     widest = $(this).width() > widest ? $(this).width() : widest;
