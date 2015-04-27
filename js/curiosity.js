@@ -220,13 +220,29 @@ $(window).load(function() {
     widest = $(this).width() > widest ? $(this).width() : widest;
   }).width(widest);
 
-  // $(".cap3").each(function() {
-  //   widest = $(this).width() > widest ? $(this).width() : widest;
-  // }).width(widest);
+  $(".cap3").each(function() {
+    widest = $(this).width() > widest ? $(this).width() : widest;
+  }).width(widest);
 
-  // $(".cap4").each(function() {
-  //   widest = $(this).width() > widest ? $(this).width() : widest;
-  // }).width(widest);
+  $(".cap4").each(function() {
+    widest = $(this).width() > widest ? $(this).width() : widest;
+  }).width(widest);
+
+  $(".cap5").each(function() {
+    widest = $(this).width() > widest ? $(this).width() : widest;
+  }).width(widest);
+
+  $(".cap6").each(function() {
+    widest = $(this).width() > widest ? $(this).width() : widest;
+  }).width(widest);
+
+  $(".cap7").each(function() {
+    widest = $(this).width() > widest ? $(this).width() : widest;
+  }).width(widest);
+
+  $(".cap8").each(function() {
+    widest = $(this).width() > widest ? $(this).width() : widest;
+  }).width(widest);
 
   // same height
   $(".height1").each(function() {
