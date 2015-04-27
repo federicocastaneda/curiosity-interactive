@@ -220,9 +220,11 @@ $(window).load(function() {
     widest = $(this).width() > widest ? $(this).width() : widest;
   }).width(widest);
 
-  $(".cap3").each(function() {
-    widest = $(this).width() > widest ? $(this).width() : widest;
-  }).width(widest);
+  if($(window).width() >= 320){
+    $(".cap3").each(function() {
+      widest = $(this).width() > widest ? $(this).width() : widest;
+    }).width(widest);
+  }
 
   $(".cap4").each(function() {
     widest = $(this).width() > widest ? $(this).width() : widest;
