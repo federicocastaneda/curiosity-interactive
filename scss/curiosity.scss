@@ -746,6 +746,9 @@ Mobile
                 }
                 .cont-content {
                     float: left;
+                        iframe {
+                            float: left;
+                        }
                 }
                 &.two-images {
                     div {
