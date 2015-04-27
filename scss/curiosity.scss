@@ -803,10 +803,6 @@ Mobile
                                             float: left;
                                             padding: 0;
                                             margin-right: 2px;
-                                                img {
-                                                    max-width: 230px !important;
-                                                    max-height: 230px !important;
-                                                }
                                         }
                                 }
                         }
@@ -935,6 +931,10 @@ Mobile
         margin-top: 10px;
         font-size: 11px;
 	}
+    ul.cont-b-gallery img {
+        max-width: 230px !important;
+        max-height: 230px !important;
+    }
 }
 
 #Section1 {
@@ -1022,6 +1022,13 @@ Mobile
             background-size: 100%;
             background-position: left bottom;
         }
+}
+
+#Section10 {
+    ul.cont-b-gallery img {
+        max-width: 523px !important;
+        max-height: 523px !important;
+    }
 }
 
 #Section12 {

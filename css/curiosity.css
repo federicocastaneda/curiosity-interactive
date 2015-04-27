@@ -612,9 +612,6 @@ Mobile
             float: left;
             padding: 0;
             margin-right: 2px; }
-            .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li img {
-              max-width: 230px !important;
-              max-height: 230px !important; }
     .section .cont-b .bottom-caption {
       width: 100%;
       max-height: 50px;
@@ -703,6 +700,9 @@ Mobile
 #Section0 p.authoring {
   margin-top: 10px;
   font-size: 11px; }
+#Section0 ul.cont-b-gallery img {
+  max-width: 230px !important;
+  max-height: 230px !important; }
 
 #Section1 .cont-l,
 #Section1 .cont-r {
@@ -751,6 +751,10 @@ Mobile
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: left bottom; }
+
+#Section10 ul.cont-b-gallery img {
+  max-width: 523px !important;
+  max-height: 523px !important; }
 
 #Section12 .cont-b {
   position: relative;
