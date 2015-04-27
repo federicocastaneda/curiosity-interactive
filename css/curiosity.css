@@ -888,8 +888,8 @@ Mobile
   .fp-tableCell {
     width: 100% !important; }
 
-  #Section1 ul.cont-b-gallery li {
-    float: none;
+  .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li {
+    float: none !important;
     margin-bottom: 5px; }
 
   #Section1,
