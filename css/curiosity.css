@@ -1008,6 +1008,12 @@ Mobile
     #Section16 .fp-tableCell {
       padding-bottom: 83px; }
 
+  #Section20 {
+    background-size: 100%;
+    background-position: center 87%; }
+    #Section20 .fp-tableCell {
+      padding-bottom: 83px; }
+
   #Section10 ul.cont-b-gallery img {
     max-width: 100% !important;
     max-height: auto !important; }
