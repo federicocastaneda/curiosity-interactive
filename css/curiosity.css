@@ -227,7 +227,7 @@ ul.menu {
 a.context-block {
   display: none !important; }
 
-#block-menu-menu-Sections {
+#block-menu-menu-sections {
   display: block;
   float: left; }
 
@@ -236,22 +236,22 @@ ul.menu {
   list-style: none outside none;
   text-align: left; }
 
-#block-menu-menu-Sections ul.menu {
+#block-menu-menu-sections ul.menu {
   height: 40px;
   list-style-type: none;
   margin: 0;
   padding: 0; }
 
-#block-menu-menu-Sections ul.menu {
+#block-menu-menu-sections ul.menu {
   border-left: 1px solid #355673; }
 
-#block-menu-menu-Sections ul.menu li {
+#block-menu-menu-sections ul.menu li {
   display: block;
   float: left;
   margin: 0;
   padding: 0; }
 
-#block-menu-menu-Sections ul.menu li a {
+#block-menu-menu-sections ul.menu li a {
   border-right: 1px solid #369dbf;
   color: #d4e4e8;
   display: block;
@@ -263,24 +263,24 @@ ul.menu {
   line-height: 43px;
   padding: 0 10px;
   text-decoration: none; }
-  #block-menu-menu-Sections ul.menu li a:hover {
+  #block-menu-menu-sections ul.menu li a:hover {
     color: #fff; }
 
-#block-menu-menu-Sections ul.menu li a {
+#block-menu-menu-sections ul.menu li a {
   font-size: 15px;
   padding: 0 15px; }
 
-#block-menu-menu-Sections ul.menu li.first a {
+#block-menu-menu-sections ul.menu li.first a {
   padding: 0 10px;
   border-left: 1px solid #355673; }
 
-#block-menu-menu-Sections ul.menu li {
+#block-menu-menu-sections ul.menu li {
   display: block;
   float: left;
   margin: 0;
   padding: 0; }
 
-#block-menu-menu-Sections ul.menu li a {
+#block-menu-menu-sections ul.menu li a {
   border-right: 1px solid #355673;
   color: #d4e4e8;
   display: block;
@@ -293,21 +293,21 @@ ul.menu {
   padding: 0 10px;
   text-decoration: none; }
 
-#block-menu-menu-Sections ul.menu li a {
+#block-menu-menu-sections ul.menu li a {
   font-size: 15px;
   padding: 0 12px; }
 
-#block-menu-menu-Sections ul.menu li.first a {
+#block-menu-menu-sections ul.menu li.first a {
   padding: 0 10px; }
 
-#block-menu-menu-Sections ul.menu li.last a {
+#block-menu-menu-sections ul.menu li.last a {
   padding: 0 15px 0 14px; }
 
-#block-menu-menu-Sections ul.menu li a.active, #block-menu-menu-Sections ul.menu li a.active-trail {
+#block-menu-menu-sections ul.menu li a.active, #block-menu-menu-sections ul.menu li a.active-trail {
   background: none repeat scroll 0 0 #6c869d;
   color: white; }
 
-#block-menu-menu-Sections ul.menu li {
+#block-menu-menu-sections ul.menu li {
   display: block;
   float: left;
   margin: 0;
@@ -523,99 +523,99 @@ Mobile
 #Section19 .intro {
   padding-top: 170px; }
 
-.Section {
+.section {
   background-size: cover; }
-  .Section h1 {
+  .section h1 {
     font-size: 30px; }
-  .Section h2 {
+  .section h2 {
     font-size: 22px;
     line-height: 30px; }
-  .Section .fw-Section {
+  .section .fw-section {
     height: auto !important; }
-  .Section div.tweet {
+  .section div.tweet {
     border-bottom: solid 1px #000;
     padding-bottom: 10px;
     margin-bottom: 10px; }
-    .Section div.tweet iframe.twitter-tweet {
+    .section div.tweet iframe.twitter-tweet {
       width: 100% !important; }
-  .Section .cont-l {
+  .section .cont-l {
     float: left;
     width: 45%;
     margin-bottom: 10px; }
-  .Section .cont-r {
+  .section .cont-r {
     float: right;
     width: 55%;
     display: flex;
     align-items: center;
     justify-content: center; }
-    .Section .cont-r .cont-r-content {
+    .section .cont-r .cont-r-content {
       padding: 10% 0;
       text-align: center; }
-      .Section .cont-r .cont-r-content .cont-r-content-wrapper {
+      .section .cont-r .cont-r-content .cont-r-content-wrapper {
         max-width: 90% !important;
         margin: 0 auto; }
-        .Section .cont-r .cont-r-content .cont-r-content-wrapper .cont-caption-content {
+        .section .cont-r .cont-r-content .cont-r-content-wrapper .cont-caption-content {
           background: #000; }
-          .Section .cont-r .cont-r-content .cont-r-content-wrapper .cont-caption-content p {
+          .section .cont-r .cont-r-content .cont-r-content-wrapper .cont-caption-content p {
             color: #fff;
             padding: 5px;
             font-size: 13px;
             line-height: 16px;
             text-align: left; }
-        .Section .cont-r .cont-r-content .cont-r-content-wrapper .cont-r-vertical {
+        .section .cont-r .cont-r-content .cont-r-content-wrapper .cont-r-vertical {
           margin-bottom: 3px; }
-        .Section .cont-r .cont-r-content .cont-r-content-wrapper img {
+        .section .cont-r .cont-r-content .cont-r-content-wrapper img {
           width: 100%; }
-    .Section .cont-r .cont-content {
+    .section .cont-r .cont-content {
       float: left; }
-      .Section .cont-r .cont-content iframe {
+      .section .cont-r .cont-content iframe {
         float: left; }
-    .Section .cont-r.two-images div {
+    .section .cont-r.two-images div {
       display: block; }
-  .Section .video {
+  .section .video {
     max-height: 303px;
     margin: 0px 0px 20px 20px; }
-  .Section .fishback {
+  .section .fishback {
     margin-top: 20px; }
-    .Section .fishback ul {
+    .section .fishback ul {
       margin: 0;
       padding: 0; }
-      .Section .fishback ul li {
+      .section .fishback ul li {
         list-style: none;
         padding: 0px 0px 13px 35px;
         margin-bottom: 5px;
         background-image: url("http://federicocastaneda.github.io/curiosity-interactive/images/curiosity-fishback-small.png");
         background-position: center left;
         background-repeat: no-repeat; }
-        .Section .fishback ul li a {
+        .section .fishback ul li a {
           color: #5b4b20;
           text-decoration: none;
           font-weight: 700; }
-          .Section .fishback ul li a:hover {
+          .section .fishback ul li a:hover {
             text-decoration: underline; }
-  .Section .cont-b {
+  .section .cont-b {
     display: flex;
     width: 100%;
     float: left;
     margin-top: 40px; }
-    .Section .cont-b .cont-b-content {
+    .section .cont-b .cont-b-content {
       display: block;
       margin: 0 auto; }
-      .Section .cont-b .cont-b-content .cont-b-image {
+      .section .cont-b .cont-b-content .cont-b-image {
         display: block; }
-        .Section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery {
+        .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery {
           margin: 0;
           padding: 0;
           float: left; }
-          .Section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li {
+          .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li {
             list-style: none;
             float: left;
             padding: 0;
             margin-right: 2px; }
-            .Section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li img {
+            .section .cont-b .cont-b-content .cont-b-image ul.cont-b-gallery li img {
               max-width: 230px !important;
               max-height: 230px !important; }
-    .Section .cont-b .bottom-caption {
+    .section .cont-b .bottom-caption {
       width: 100%;
       max-height: 50px;
       display: block;
@@ -623,45 +623,45 @@ Mobile
       bottom: 0;
       background: #000;
       padding: 5px 0px; }
-      .Section .cont-b .bottom-caption .bottom-caption-content {
+      .section .cont-b .bottom-caption .bottom-caption-content {
         margin: 0 auto;
         width: 1054px; }
-        .Section .cont-b .bottom-caption .bottom-caption-content p {
+        .section .cont-b .bottom-caption .bottom-caption-content p {
           color: #fff;
           font-size: 13px;
           line-height: 16px; }
-  .Section div.cont-caption {
+  .section div.cont-caption {
     display: block;
     clear: both;
     background: #000; }
-    .Section div.cont-caption p {
+    .section div.cont-caption p {
       color: #fff;
       padding: 5px;
       font-size: 13px;
       line-height: 16px; }
-  .Section div.gallery-caption {
+  .section div.gallery-caption {
     display: block;
     max-width: 230px;
     background: #000;
     margin-top: -4px; }
-    .Section div.gallery-caption .gallery-caption-content {
+    .section div.gallery-caption .gallery-caption-content {
       padding: 5px; }
-    .Section div.gallery-caption p {
+    .section div.gallery-caption p {
       color: #fff;
       font-size: 13px;
       line-height: 16px; }
-  .Section .full-width-caption {
+  .section .full-width-caption {
     background: #000;
     width: 80%;
     margin: 0 auto; }
-    .Section .full-width-caption .full-width-caption-content {
+    .section .full-width-caption .full-width-caption-content {
       padding: 5px; }
-      .Section .full-width-caption .full-width-caption-content p {
+      .section .full-width-caption .full-width-caption-content p {
         color: #fff;
         text-align: left;
         font-size: 13px;
         line-height: 16px; }
-  .Section .caption-credit {
+  .section .caption-credit {
     text-transform: uppercase;
     text-align: right !important;
     font-size: 10px !important; }

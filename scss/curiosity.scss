@@ -269,7 +269,7 @@ a.context-block {
     display: none !important;
 }
 
-#block-menu-menu-Sections {
+#block-menu-menu-sections {
     display: block;
     float: left;
 }
@@ -278,24 +278,24 @@ ul.menu {
     list-style: none outside none;
     text-align: left;
 }
-#block-menu-menu-Sections ul.menu {
+#block-menu-menu-sections ul.menu {
     height: 40px;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-#block-menu-menu-Sections ul.menu {
+#block-menu-menu-sections ul.menu {
     border-left: 1px solid #355673;
 }
 
-#block-menu-menu-Sections ul.menu li {
+#block-menu-menu-sections ul.menu li {
     display: block;
     float: left;
     margin: 0;
     padding: 0;
 }
-#block-menu-menu-Sections ul.menu li a {
+#block-menu-menu-sections ul.menu li a {
     border-right: 1px solid #369dbf;
     color: hsl(192, 30%, 87%);
     display: block;
@@ -311,23 +311,23 @@ ul.menu {
     		color: #fff;
     	}
 }
-#block-menu-menu-Sections ul.menu li a {
+#block-menu-menu-sections ul.menu li a {
     font-size: 15px;
     padding: 0 15px;
 }
 
-#block-menu-menu-Sections ul.menu li.first a {
+#block-menu-menu-sections ul.menu li.first a {
     padding: 0 10px;
     border-left: 1px solid #355673 ;
 }
 
-#block-menu-menu-Sections ul.menu li {
+#block-menu-menu-sections ul.menu li {
     display: block;
     float: left;
     margin: 0;
     padding: 0;
 }
-#block-menu-menu-Sections ul.menu li a {
+#block-menu-menu-sections ul.menu li a {
     border-right: 1px solid #355673;
     color: hsl(192, 30%, 87%);
     display: block;
@@ -340,25 +340,25 @@ ul.menu {
     padding: 0 10px;
     text-decoration: none;
 }
-#block-menu-menu-Sections ul.menu li a {
+#block-menu-menu-sections ul.menu li a {
     font-size: 15px;
     padding: 0 12px;
 }
-#block-menu-menu-Sections ul.menu li.first a {
+#block-menu-menu-sections ul.menu li.first a {
     padding: 0 10px;
 }
 
-#block-menu-menu-Sections ul.menu li.last a {
+#block-menu-menu-sections ul.menu li.last a {
     padding: 0 15px 0 14px;
 }
 
-#block-menu-menu-Sections ul.menu li a.active, #block-menu-menu-Sections ul.menu li a.active-trail {
+#block-menu-menu-sections ul.menu li a.active, #block-menu-menu-sections ul.menu li a.active-trail {
     background: none repeat scroll 0 0 #6c869d;
     color: white;
 }
 
 
-#block-menu-menu-Sections ul.menu li {
+#block-menu-menu-sections ul.menu li {
     display: block;
     float: left;
     margin: 0;
@@ -683,7 +683,7 @@ Mobile
         }
 }
 
-.Section {
+.section {
 	background-size: cover;
     //
         h1 {
@@ -693,7 +693,7 @@ Mobile
             font-size: 22px;
             line-height: 30px;
         }
-        .fw-Section {
+        .fw-section {
             //padding-top: 3.6%;
             height: auto !important;
         }
