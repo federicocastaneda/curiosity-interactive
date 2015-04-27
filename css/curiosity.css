@@ -828,6 +828,10 @@ Mobile
 #Section5 .slide-wrapper {
   padding-bottom: 50px !important; }
 
+#Section9 [u='slides'],
+#Section9 .slide-wrapper {
+  padding-bottom: 50px !important; }
+
 #Section15 [u='slides'],
 #Section15 .slide-wrapper {
   padding-bottom: 42px !important; }
