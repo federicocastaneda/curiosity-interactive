@@ -21,8 +21,213 @@ $(document).ready(function(){
     autoScrolling: false,
     fitToSection: false,
 
+  afterLoad: function(anchorLink, index){
+            var loadedSection = $(this);
 
-onLeave: function(index, nextIndex, direction){
+
+        if(anchorLink == 'Section001'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_001.png')");
+        }
+
+        if(anchorLink == 'Section002'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_017.png')");
+        }
+
+        if(anchorLink == 'Section003'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_061.png')");
+        }
+
+        if(anchorLink == 'Section004'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_099.png')");
+        }
+
+        if(anchorLink == 'Section005'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_183.png')");
+        }
+
+        if(anchorLink == 'Section006'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_290.png')");
+        }
+
+        if(anchorLink == 'Section007'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_402.png')");
+        }
+
+        if(anchorLink == 'Section008'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_447.png')");
+        }
+
+        if(anchorLink == 'Section009'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_472.png')");
+        }
+
+        if(anchorLink == 'Section010'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_477.png')");
+        }
+
+        if(anchorLink == 'Section011'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_488.png')");
+        }
+
+        if(anchorLink == 'Section012'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_662.png')");
+        }
+
+        if(anchorLink == 'Section013'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_669.png')");
+        }
+
+        if(anchorLink == 'Section014'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_689.png')");
+        }
+
+        if(anchorLink == 'Section015'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_711.png')");
+        }
+
+        if(anchorLink == 'Section016'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_746.png')");
+        }
+
+        if(anchorLink == 'Section017'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_711.png')");
+        }
+
+        if(anchorLink == 'Section018'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_839.png')");
+        }
+
+        if(anchorLink == 'Section019'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_935.png')");
+        }
+
+        if(anchorLink == 'Section020'){
+                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_935.png')");
+        }
+        
+        // $("#mars-curiosity-nav .Section1").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_001.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section2").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_017.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section3").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_061.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section4").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_099.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section5").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_183.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section6").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_290.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section7").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_402.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section8").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_447.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section9").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_472.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section10").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_477.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section11").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_488.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section12").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_662.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section13").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_669.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section14").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_689.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section15").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_711.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section16").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_746.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section17").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_783.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section18").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_839.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section19").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_935.png')");
+        //         } 
+        // });
+
+        // $("#mars-curiosity-nav .Section20").click(function(){
+        //   if($(this).hasClass("active")) {
+        //     $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_935.png')");
+        //         } 
+        // });
+        
+        },
+
+  onLeave: function(index, nextIndex, direction){
             var leavingSection = $(this);
 
             if(index == 1 && direction =='down'){
@@ -157,14 +362,15 @@ onLeave: function(index, nextIndex, direction){
             else if(index == 20 && direction == 'up'){
                 $("#mars-nav-wrapper").css("background-image","url('http://federicocastaneda.github.io/curiosity-interactive/images/map/map_sol_839.png')");
             }
-
-
-
         }
 
 
+  
+
 
   });
+
+
 
   // Declaring the jssor instance options
   var options = {
@@ -244,9 +450,9 @@ $(window).load(function() {
     }).width(widest);
   }
 
-  $(".cap6").each(function() {
-    widest = $(this).width() > widest ? $(this).width() : widest;
-  }).width(widest);
+  // $(".cap6").each(function() {
+  //   widest = $(this).width() > widest ? $(this).width() : widest;
+  // }).width(widest);
 
   if($(window).width() >= 400){
     $(".cap7").each(function() {
