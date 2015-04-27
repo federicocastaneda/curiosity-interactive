@@ -700,9 +700,6 @@ Mobile
 #Section0 p.authoring {
   margin-top: 10px;
   font-size: 11px; }
-#Section0 ul.cont-b-gallery img {
-  max-width: 230px !important;
-  max-height: 230px !important; }
 
 #Section1 .cont-l,
 #Section1 .cont-r {
@@ -715,6 +712,9 @@ Mobile
 #Section1 .fw-Section-content p {
   font-size: 20px;
   line-height: 26px; }
+#Section1 ul.cont-b-gallery img {
+  max-width: 230px !important;
+  max-height: 230px !important; }
 
 #Section2 .cont-b {
   position: relative;

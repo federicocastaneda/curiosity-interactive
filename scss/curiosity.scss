@@ -931,10 +931,6 @@ Mobile
         margin-top: 10px;
         font-size: 11px;
 	}
-    ul.cont-b-gallery img {
-        max-width: 230px !important;
-        max-height: 230px !important;
-    }
 }
 
 #Section1 {
@@ -942,9 +938,6 @@ Mobile
     .cont-r {
         margin-top: 60px;
     }
-    // .cont-b {
-    //  margin-bottom: 170px;
-    //  }
 	.fp-tableCell {
 			vertical-align: top;
 		}	
@@ -956,8 +949,12 @@ Mobile
             p {
                 font-size: 20px;
                 line-height: 26px;
+            }
         }
-}		
+    ul.cont-b-gallery img {
+        max-width: 230px !important;
+        max-height: 230px !important;
+    }	
 }
 
 #Section2 {
