@@ -226,37 +226,51 @@ $(window).load(function() {
     }).width(widest);
   }
 
-  $(".cap4").each(function() {
-    widest = $(this).width() > widest ? $(this).width() : widest;
-  }).width(widest);
+  if($(window).width() >= 400){
+    $(".cap4").each(function() {
+      widest = $(this).width() > widest ? $(this).width() : widest;
+    }).width(widest);
+  }
 
-  $(".cap5").each(function() {
-    widest = $(this).width() > widest ? $(this).width() : widest;
-  }).width(widest);
+  if($(window).width() >= 400){
+    $(".cap5").each(function() {
+      widest = $(this).width() > widest ? $(this).width() : widest;
+    }).width(widest);
+  }
 
   $(".cap6").each(function() {
     widest = $(this).width() > widest ? $(this).width() : widest;
   }).width(widest);
 
-  $(".cap7").each(function() {
-    widest = $(this).width() > widest ? $(this).width() : widest;
-  }).width(widest);
+  if($(window).width() >= 400){
+    $(".cap7").each(function() {
+      widest = $(this).width() > widest ? $(this).width() : widest;
+    }).width(widest);
+  }
 
-  $(".cap8").each(function() {
-    widest = $(this).width() > widest ? $(this).width() : widest;
-  }).width(widest);
+  if($(window).width() >= 400){
+    $(".cap8").each(function() {
+      widest = $(this).width() > widest ? $(this).width() : widest;
+    }).width(widest);
+  }
 
-  $(".cap9").each(function() {
-    widest = $(this).width() > widest ? $(this).width() : widest;
-  }).width(widest);
+  if($(window).width() >= 400){
+    $(".cap9").each(function() {
+      widest = $(this).width() > widest ? $(this).width() : widest;
+    }).width(widest);
+  }
 
-  $(".cap10").each(function() {
-    widest = $(this).width() > widest ? $(this).width() : widest;
-  }).width(widest);
+  if($(window).width() >= 400){
+    $(".cap10").each(function() {
+      widest = $(this).width() > widest ? $(this).width() : widest;
+    }).width(widest);
+  }
 
-  $(".cap11").each(function() {
-    widest = $(this).width() > widest ? $(this).width() : widest;
-  }).width(widest);
+  if($(window).width() >= 400){
+    $(".cap11").each(function() {
+      widest = $(this).width() > widest ? $(this).width() : widest;
+    }).width(widest);
+  }
 
   $(".cap12").each(function() {
     widest = $(this).width() > widest ? $(this).width() : widest;
