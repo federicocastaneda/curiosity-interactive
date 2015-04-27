@@ -14,7 +14,7 @@ $(document).ready(function(){
 
   $("#fullpage").fullpage({
     menu: '#mars-curiosity-nav',
-    anchors: ['Section0', 'Section1', 'Section2', 'Section3', 'Section4', 'Section5', 'Section6', 'Section7', 'Section8', 'Section9', 'Section10', 'Section11', 'Section12', 'Section13', 'Section14', 'Section15', 'Section16', 'Section17', 'Section18', 'Section19', 'Section20'],
+    anchors: ['Section000', 'Section001', 'Section002', 'Section003', 'Section004', 'Section005', 'Section006', 'Section007', 'Section008', 'Section009', 'Section010', 'Section011', 'Section012', 'Section013', 'Section014', 'Section015', 'Section016', 'Section017', 'Section018', 'Section019', 'Section020'],
     navigationPosition: 'none',
     navigationTooltips: ['Curiosity', 'Sol 0', 'Sol 16', 'Sol 61', 'Sol 100', 'Sol 182', 'Sol 289', 'Sol 402', 'Sol 182', 'Sol 447', 'Sol 473', 'Sol 477', 'Sol 488', 'Sol 662', 'Sol 669', 'Sol 689', 'Sol 711', 'Sol 746', 'Sol 783', 'Sol 839', 'Sol 935', 'Summer 2015'],
     responsive: 4000,

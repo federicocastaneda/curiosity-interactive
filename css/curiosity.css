@@ -447,7 +447,7 @@ Mobile
           color: #fff; }
       .mars-nav-wrapper #mars-curiosity-nav li:hover {
         background: #000; }
-      .mars-nav-wrapper #mars-curiosity-nav li[data-menuanchor='Section0'] {
+      .mars-nav-wrapper #mars-curiosity-nav li[data-menuanchor='Section000'] {
         display: none; }
       .mars-nav-wrapper #mars-curiosity-nav li:last-child a {
         border-right: none; }
