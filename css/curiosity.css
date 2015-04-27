@@ -895,7 +895,9 @@ Mobile
     float: none !important;
     margin-bottom: 5px; }
 
-  #Section0 .intro {
+  #Section0 .intro div,
+  #Section0 .intro h1,
+  #Section0 .intro p {
     padding-left: 5%;
     padding-right: 5%; }
 

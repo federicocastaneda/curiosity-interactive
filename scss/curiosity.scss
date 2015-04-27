@@ -1217,8 +1217,12 @@ Mobile
                 margin-bottom: 5px;
     }
     #Section0 .intro {
-        padding-left: 5%;
-        padding-right: 5%;
+        div,
+        h1,
+        p {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
     }
     #Section1 {
         .fw-section {
