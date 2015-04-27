@@ -822,11 +822,11 @@ Mobile
 #section4 .slide-wrapper,
 #section13 [u='slides'],
 #section13 .slide-wrapper {
-  padding-bottom: 58px; }
+  padding-bottom: 58px !important; }
 
 #section15 [u='slides'],
 #section15 .slide-wrapper {
-  padding-bottom: 42px; }
+  padding-bottom: 42px !important; }
 
 [u='slides'],
 .slide-wrapper {
