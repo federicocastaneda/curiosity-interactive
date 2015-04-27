@@ -1288,7 +1288,7 @@ Mobile
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 568px)) {
+  and (max-device-width: 568px) {
     .cont-content.cap3,
     .cont-content.cap4,
     .cont-content.cap5,
@@ -1306,9 +1306,20 @@ Mobile
 /* Portrait */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
+  and (max-device-width: 400px)
   and (orientation: portrait) {
+    .cont-content.cap3,
+    .cont-content.cap4,
+    .cont-content.cap5,
+    .cont-content.cap7,
+    .cont-content.cap8,
+    .cont-content.cap9,
+    .cont-content.cap10,
+    .cont-content.cap11 {
+        max-width: 100% !important;
+        clear: both;
+        max-height: auto !important;
+    }
 }
 
 /* Landscape */
