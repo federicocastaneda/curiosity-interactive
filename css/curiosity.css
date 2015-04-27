@@ -642,7 +642,8 @@ Mobile
   .section div.gallery-caption {
     display: block;
     max-width: 230px;
-    background: #000; }
+    background: #000;
+    margin-top: -3px; }
     .section div.gallery-caption .gallery-caption-content {
       padding: 5px; }
     .section div.gallery-caption p {
