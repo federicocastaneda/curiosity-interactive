@@ -90,7 +90,7 @@ $(document).ready(function(){
         }
 
         if(anchorLink == 'Section017'){
-                 $("#mars-nav-wrapper").css("background-image","url('https://www.sciencenews.org/web-assets/images/curiosity/map/map_sol_711.png')");
+                 $("#mars-nav-wrapper").css("background-image","url('https://www.sciencenews.org/web-assets/images/curiosity/map/map_sol_783.png')");
         }
 
         if(anchorLink == 'Section018'){
@@ -217,21 +217,21 @@ $(document).ready(function(){
             }
 
             else if(index == 16 && direction == 'down'){
-                $("#mars-nav-wrapper").css("background-image","url('https://www.sciencenews.org/web-assets/images/curiosity/map/map_sol_746.png')");
+                $("#mars-nav-wrapper").css("background-image","url('https://www.sciencenews.org/web-assets/images/curiosity/map/map_sol_783.png')");
             }
             else if(index == 17 && direction == 'up'){
                 $("#mars-nav-wrapper").css("background-image","url('https://www.sciencenews.org/web-assets/images/curiosity/map/map_sol_711.png')");
             }
 
             else if(index == 17 && direction == 'down'){
-                $("#mars-nav-wrapper").css("background-image","url('https://www.sciencenews.org/web-assets/images/curiosity/map/map_sol_783.png')");
+                $("#mars-nav-wrapper").css("background-image","url('https://www.sciencenews.org/web-assets/images/curiosity/map/map_sol_839.png')");
             }
             else if(index == 18 && direction == 'up'){
                 $("#mars-nav-wrapper").css("background-image","url('https://www.sciencenews.org/web-assets/images/curiosity/map/map_sol_746.png')");
             }
 
             else if(index == 18 && direction == 'down'){
-                $("#mars-nav-wrapper").css("background-image","url('https://www.sciencenews.org/web-assets/images/curiosity/map/map_sol_839.png')");
+                $("#mars-nav-wrapper").css("background-image","url('https://www.sciencenews.org/web-assets/images/curiosity/map/map_sol_935.png')");
             }
             else if(index == 19 && direction == 'up'){
                 $("#mars-nav-wrapper").css("background-image","url('https://www.sciencenews.org/web-assets/images/curiosity/map/map_sol_783.png')");

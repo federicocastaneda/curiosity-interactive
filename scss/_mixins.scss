@@ -7,10 +7,10 @@
   box-sizing:         border-box;
 }
 
-@mixin box-shadow() {
-  -webkit-box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    0px 5px 5px rgba(50, 50, 50, 0.75);
-  box-shadow:         0px 5px 5px rgba(50, 50, 50, 0.75);
+@mixin box-shadow($h: 0px, $v: 5px, $blur: 5px, $grey: 50, $opacity: 0.75 ) {
+  -webkit-box-shadow: $h $v $blur rgba($grey, $grey, $grey, $opacity);
+  -moz-box-shadow:    $h $v $blur rgba($grey, $grey, $grey, $opacity);
+  box-shadow:         $h $v $blur rgba($grey, $grey, $grey, $opacity);
 }
 
 @mixin box-shadow-reset() {
@@ -55,14 +55,20 @@
   font-weight: $weight;
   font-style: $style;
 }
+/*
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Serif'), local('DroidSerif'), url(https://themes.googleusercontent.com/static/fonts/droidserif/v3/0AKsP294HTD-nvJgucYTaLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}*/
 
 // End Google Fonts
 
 // links in the top header bar
 @mixin header-links() {
-
+    line-height: 43px;
     color: $white;
-    line-height: 40px;
     height: 40px;
     padding: 0 10px;
     font-size: 11px;
@@ -83,19 +89,23 @@
 @mixin newsriver-deets($sz: '') {
   color: $grayDark;
   text-transform: uppercase;
-  line-height: 16px;
+  line-height: 12px;
   @if ($sz == 'swide') {
+    line-height: 14px;
     font-size: 14px;
-    height: 20px;
+    height: 14px;
   }
   @else {
     font-size: 10px;
-    height: 18px;
+    height: 12px;
   }
 }
 
-//svg bg with fallbacks
-@mixin vector-bg-with-fallback($name) {
-  background-image: url('../i/#{$name}.png');
-  background-image: none, url('../i/#{$name}.svg');
+// stylized input boxes
+@mixin stylized-inputs() {
+    background: #f9f9f9;
+    margin: 0;
+    font-size: 13px;
+    padding: 0 30px 0 10px;
+    border: 1px solid $white;
 }
