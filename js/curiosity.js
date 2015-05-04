@@ -384,11 +384,260 @@ $(window).load(function() {
     tallest = $(this).height() > tallest ? $(this).height() : tallest;
   }).height(tallest);
 
+});
 
+      var windowWidth = $(window).width();
+      $(window).load(function(){
+          //get the size and do some things
+          windowSize();
+          if ('ontouchstart' in window || 'onmsgesturechange' in window) {
+            //we are on a touch screen
+                $('.hoverOK').removeClass('hoverOK');
+              }
+          });
+      $(window).resize(function(){
+        //when we resize, get the window size and do some things
+           windowSize();
+        });
+    function windowSize(){
+        var windowWidth = $(window).width();
+        if(windowWidth <768){
+            //mobile
+            mobileMenu();
+          } 
+      }
+
+    function mobileMenu(e) {
+                //find out if we've done the mobile menu thing or not
+                if($('#block-menu-menu-newsrail-mobile').length < 1){
+                  //clone the explore meny and newsriver
+                  //strip the id's and add the mobile-nr class
+                  //put the nr on top and the explore below
+                  var $exMobile = $('#block-menu-menu-newsrail').clone().attr('id', 'block-menu-menu-newsrail-mobile').addClass('mobile-brick-content');
+                  var $nrMobile = $('#newsrail-river-wrapper').clone().attr('id', 'newsrail-river-wrapper-mobile').addClass('mobile-brick-content');
+
+                  $('#mobile-nav-bar').after($exMobile).after($nrMobile);
+                  //remove the sub-items in the explore menu
+                  $('#block-menu-menu-newsrail-mobile').find('ul.newsrail-menu li div').remove();
+                  //also empty the magazine stuff
+                  $('#block-menu-menu-newsrail-mobile').find('ul.newsrail-menu li ul').remove();
+                  //style the bricks
+                  $('#block-menu-menu-newsrail-mobile .newsrail-menu li').addClass('mobile-menu-brick');
+                  //add in the proper links --NEED TO ADD A CLASS TO THE VIEW TO FIND THE RIGHT ONE
+                  //$('#block-menu-menu-newsrail-mobile .newsrail-menu li').find('a')
+                  $('#block-menu-menu-newsrail-mobile .nr-topics').wrap('<a href="/topics">');
+                  $('#block-menu-menu-newsrail-mobile .nr-blogs').wrap('<a href="/blogs">');
+                  $('#block-menu-menu-newsrail-mobile .nr-ed-picks').wrap('<a href="/editors-picks">');
+                  $('#block-menu-menu-newsrail-mobile .nr-magazine').wrap('<a href="/magazine/archive?mode=magazine&context=188995">');
+                  //change the id of the newsriver for mobile
+                  var windowWidth = $(window).width();
+                  var windowHeight = $(window).height();
+                  $riverMobile = $('#newsrail-river-wrapper-mobile #block-views-newsrail-river-main');
+                  //set the styling for the mobile newsriver
+                  $riverMobile.css({'top':'0', 'left':'100%', 'margin-top': '0', 'height':windowHeight , 'width': windowWidth});
+                  //put in the divider borders
+                  var mobileDivider = '<div class="mobile-menu-border"></div>';
+                  $('#block-sn-profile-sn-account').before(mobileDivider);
+                  $('#block-menu-menu-sections').before(mobileDivider);
+                  $('#newsrail-river-wrapper-mobile #newsriver-sorts a').wrap('<div class="mobile-menu-brick">');
+                  //add in new js for the menu
+                  //add in the title for latest and most viewed
+                  var currentTitle = $('#newsrail-river-wrapper .nr-title').text();
+                  if (currentTitle == 'All News'){
+                    //title will be all news
+                    $('#newsrail-river-wrapper-mobile #newsriver-sorts #newsriver-sort-recent .label').text('Latest > News');
+                    $('#newsrail-river-wrapper-mobile #newsriver-sorts #newsriver-sort-viewed .label').text('Most Viewed > News');
+                  } else {
+                    //set the title = to current title
+                    $('#newsrail-river-wrapper-mobile #newsriver-sorts #newsriver-sort-recent .label').text('Latest > '+currentTitle);
+                    $('#newsrail-river-wrapper-mobile #newsriver-sorts #newsriver-sort-viewed .label').text('Most Viewed > '+currentTitle);
+                  }
+                  //put in the back button - WILL THIS CHANGE WHEN I SORT?
+                  var mobileBack  = $('<li>').addClass('views-row').append($('<a>').attr('href', '#').text('Back').addClass('backButton'));
+                  
+                  $('#newsrail-river-wrapper-mobile #block-views-newsrail-river-main .view-newsrail-river .view-content .item-list ul li:first-child').before(mobileBack);
+                  //bind the back button
+                  $('.backButton').bind('click', function(e){
+                    e.preventDefault();
+                    $riverMobile.animate({'left': '100%'},'swing', function(){
+                      $('#newsrail-river-wrapper-mobile').height('45px');
+                      $('.riverCover').fadeOut('slow');
+                    });
+                  });
+                  //set up the shadow to be screen width and size and fixed positon over the visible part of the screen
+                    $riverMobile.before('<div class="riverCover"></div>');
+                  //bind the clicks on the latest and most viewed
+                  $('#newsrail-river-wrapper-mobile #newsriver-sort-recent').bind('click', function(e){
+                    //make the container the height of the screen
+                    $('#newsrail-river-wrapper-mobile').height(windowHeight - 50);
+                    $('.riverCover').fadeIn('fast');
+
+                    $riverMobile.animate({'left': '0%'},'swing');
+                    //style it so i can 
+                  });
+                  $('#newsrail-river-wrapper-mobile #newsriver-sort-viewed').bind('click', function(e){
+                    //make the container the height of the screen
+                    $('#newsrail-river-wrapper-mobile').height(windowHeight - 50);
+                    $('.riverCover').fadeIn('fast');
+                    //trigger the sort - IS THIS NESECARY?
+
+                    $riverMobile.animate({'left': '0%'},'swing');
+                    //style it so i can 
+                  });
+                }
+              }
+
+    $('#mobile-nav-bar .menu-toggle').click(function(e){
+        e.preventDefault();
+        //var currentScroll;
+        if ($(this).hasClass('closed')) {
+          //currentScroll = $(window).scrollTop();
+          window.scrollTo(0,0);
+          // it is closed, open it
+          $('#block-esi-block-s10-sn-profile-sn-account').css('display', 'block');
+          $('#block-sn-profile-sn-newsletter').css('display', 'block');
+          $('#block-sn-profile-sn-account').css('display', 'block');
+          $('#block-menu-menu-social-media').css('display', 'block');
+          $('#block-menu-menu-sections').css('display', 'block');
+          $('#mobile-nav-bar .menu-toggle').removeClass('closed').addClass('opened');
+          $('#newsrail-river-wrapper-mobile').css('display', 'block');
+          $('#block-menu-menu-newsrail-mobile').css('display', 'block');
+          $('.mobile-menu-border').css('display', 'block');
+          //$('body').css('overflow','hidden');
+          $('#mobile-nav-bar').addClass('opened');
+          //make the mneu scroll and the rest o fthe page not so
+          $('#zone-nav-wrapper').css({'position':'relative', 'height':$(window).height()});
+          $('footer').css('position', 'fixed');
+          $('#section-content').css('position', 'fixed');
+          $('body').css('overflow-x', 'hidden');
+          //scroll to the top
+        } else {
+          //scroll back to current
+          //window.scrollTo(0,currentScroll);
+          // it is open, close it
+          $('#block-esi-block-s10-sn-profile-sn-account').css('display', 'none');
+          $('#block-sn-profile-sn-newsletter').css('display', 'none');
+          $('#block-sn-profile-sn-account').css('display', 'none');
+          $('#block-menu-menu-social-media').css('display', 'none');
+          $('#block-menu-menu-sections').css('display', 'none');
+          $('#newsrail-river-wrapper-mobile').css('display', 'none');
+          $('#block-menu-menu-newsrail-mobile').css('display', 'none');
+          $('.mobile-menu-border').css('display', 'none');
+          $('#mobile-nav-bar .menu-toggle').removeClass('opened').addClass('closed');
+          //$('body').css('overflow','auto');
+          $('#mobile-nav-bar').removeClass('opened');
+          $('#zone-nav-wrapper').css({'position':'fixed', 'height':'50px'});
+          $('footer').css('position', 'relative');
+          $('#section-content').css('position', 'relative');
+        }
+        return false;
+      });
 
 });
 
 
+// $(document).ready(function(){
 
+//       var windowWidth = $(window).width();
+//       $(window).load(function(){
+//           //get the size and do some things
+//           windowSize();
+//           if ('ontouchstart' in window || 'onmsgesturechange' in window) {
+//             //we are on a touch screen
+//                 $('.hoverOK').removeClass('hoverOK');
+//               }
+//           });
+//       $(window).resize(function(){
+//         //when we resize, get the window size and do some things
+//            windowSize();
+//         });
+//       function windowSize(){
+//         var windowWidth = $(window).width();
+//         if(windowWidth <768){
+//             //mobile
+//             mobileMenu();
+//           } 
+//       }
 
-});
+//         function mobileMenu(e) {
+//                 //find out if we've done the mobile menu thing or not
+//                 $("body").css({"display": "none"});
+//                 if($('#block-menu-menu-newsrail-mobile').length < 1){
+//                   //clone the explore meny and newsriver
+//                   //strip the id's and add the mobile-nr class
+//                   //put the nr on top and the explore below
+//                   var $exMobile = $('#block-menu-menu-newsrail').clone().attr('id', 'block-menu-menu-newsrail-mobile').addClass('mobile-brick-content');
+//                   var $nrMobile = $('#newsrail-river-wrapper').clone().attr('id', 'newsrail-river-wrapper-mobile').addClass('mobile-brick-content');
+
+//                   $('#mobile-nav-bar').after($exMobile).after($nrMobile);
+//                   //remove the sub-items in the explore menu
+//                   $('#block-menu-menu-newsrail-mobile').find('ul.newsrail-menu li div').remove();
+//                   //also empty the magazine stuff
+//                   $('#block-menu-menu-newsrail-mobile').find('ul.newsrail-menu li ul').remove();
+//                   //style the bricks
+//                   $('#block-menu-menu-newsrail-mobile .newsrail-menu li').addClass('mobile-menu-brick');
+//                   //add in the proper links --NEED TO ADD A CLASS TO THE VIEW TO FIND THE RIGHT ONE
+//                   //$('#block-menu-menu-newsrail-mobile .newsrail-menu li').find('a')
+//                   $('#block-menu-menu-newsrail-mobile .nr-topics').wrap('<a href="/topics">');
+//                   $('#block-menu-menu-newsrail-mobile .nr-blogs').wrap('<a href="/blogs">');
+//                   $('#block-menu-menu-newsrail-mobile .nr-ed-picks').wrap('<a href="/editors-picks">');
+//                   $('#block-menu-menu-newsrail-mobile .nr-magazine').wrap('<a href="/magazine/archive?mode=magazine&context=188995">');
+//                   //change the id of the newsriver for mobile
+//                   var windowWidth = $(window).width();
+//                   var windowHeight = $(window).height();
+//                   $riverMobile = $('#newsrail-river-wrapper-mobile #block-views-newsrail-river-main');
+//                   //set the styling for the mobile newsriver
+//                   $riverMobile.css({'top':'0', 'left':'100%', 'margin-top': '0', 'height':windowHeight , 'width': windowWidth});
+//                   //put in the divider borders
+//                   var mobileDivider = '<div class="mobile-menu-border"></div>';
+//                   $('#block-sn-profile-sn-account').before(mobileDivider);
+//                   $('#block-menu-menu-sections').before(mobileDivider);
+//                   $('#newsrail-river-wrapper-mobile #newsriver-sorts a').wrap('<div class="mobile-menu-brick">');
+//                   //add in new js for the menu
+//                   //add in the title for latest and most viewed
+//                   var currentTitle = $('#newsrail-river-wrapper .nr-title').text();
+//                   if (currentTitle == 'All News'){
+//                     //title will be all news
+//                     $('#newsrail-river-wrapper-mobile #newsriver-sorts #newsriver-sort-recent .label').text('Latest > News');
+//                     $('#newsrail-river-wrapper-mobile #newsriver-sorts #newsriver-sort-viewed .label').text('Most Viewed > News');
+//                   } else {
+//                     //set the title = to current title
+//                     $('#newsrail-river-wrapper-mobile #newsriver-sorts #newsriver-sort-recent .label').text('Latest > '+currentTitle);
+//                     $('#newsrail-river-wrapper-mobile #newsriver-sorts #newsriver-sort-viewed .label').text('Most Viewed > '+currentTitle);
+//                   }
+//                   //put in the back button - WILL THIS CHANGE WHEN I SORT?
+//                   var mobileBack  = $('<li>').addClass('views-row').append($('<a>').attr('href', '#').text('Back').addClass('backButton'));
+                  
+//                   $('#newsrail-river-wrapper-mobile #block-views-newsrail-river-main .view-newsrail-river .view-content .item-list ul li:first-child').before(mobileBack);
+//                   //bind the back button
+//                   $('.backButton').bind('click', function(e){
+//                     e.preventDefault();
+//                     $riverMobile.animate({'left': '100%'},'swing', function(){
+//                       $('#newsrail-river-wrapper-mobile').height('45px');
+//                       $('.riverCover').fadeOut('slow');
+//                     });
+//                   });
+//                   //set up the shadow to be screen width and size and fixed positon over the visible part of the screen
+//                     $riverMobile.before('<div class="riverCover"></div>');
+//                   //bind the clicks on the latest and most viewed
+//                   $('#newsrail-river-wrapper-mobile #newsriver-sort-recent').bind('click', function(e){
+//                     //make the container the height of the screen
+//                     $('#newsrail-river-wrapper-mobile').height(windowHeight - 50);
+//                     $('.riverCover').fadeIn('fast');
+
+//                     $riverMobile.animate({'left': '0%'},'swing');
+//                     //style it so i can 
+//                   });
+//                   $('#newsrail-river-wrapper-mobile #newsriver-sort-viewed').bind('click', function(e){
+//                     //make the container the height of the screen
+//                     $('#newsrail-river-wrapper-mobile').height(windowHeight - 50);
+//                     $('.riverCover').fadeIn('fast');
+//                     //trigger the sort - IS THIS NESECARY?
+
+//                     $riverMobile.animate({'left': '0%'},'swing');
+//                     //style it so i can 
+//                   });
+//                 }
+//               }
+
+// });

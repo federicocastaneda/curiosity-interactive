@@ -89,22 +89,13 @@ header .block-title {
     left: 0;
     position: fixed;
     right: 0;
-    top: 2;
+    top: 0px;
     z-index: 499;
-}
-#zone-nav-wrapper {
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
     /*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#hsl(0, 0%, 78%)')";
     filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#hsl(0, 0%, 78%)');*/
-    height: 40px;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 2;
-    z-index: 499;
-
 }
 
 .container-3 {
@@ -118,16 +109,15 @@ header .block-title {
     margin-right: auto;
     position: relative;
 }
-.grid-3 {
-    width: 1180px;
-}
 
-#mobile-nav-bar {
-    display: none;
-}
-#mobile-nav-bar {
-    z-index: 499;
-}
+// .grid-3 {
+//      width: 1180px;
+// }
+
+// #mobile-nav-bar {
+//     display: none;
+// }
+
 .contextual-links-region {
     outline: medium none;
     position: relative;
@@ -311,8 +301,8 @@ ul.menu {
     	}
 }
 #block-menu-menu-sections ul.menu li a {
-    font-size: 15px;
-    padding: 0 15px;
+    // font-size: 15px;
+    // padding: 0 15px;
 }
 
 #block-menu-menu-sections ul.menu li.first a {
@@ -464,158 +454,321 @@ Mobile
 
 /* New Mobile Header Bars */
 @media (max-width: 767px) {
-#zone-nav-wrapper{
-        display:none;
+    #zone-nav-wrapper{
+        //display:none;
+        position: fixed;
+        height: 50px;
     }
-#block-esi-block-s10-sn-profile-sn-account,
-#block-sn-profile-sn-newsletter,
-#block-sn-profile-sn-account,
-#block-menu-menu-social-media,
-#block-menu-menu-sections {
-  display: none; /* XXX */
-  background-color: $snBlueLighter;
-  margin-top: 0;
-  padding: 7px 10px;
-  /*width: 100%;*/
-  color: $white;
-  a {
-    text-decoration: none;
-    color: $white;
-    &:visited {
-      color: $white;
-    }
-  }
-}
 
-#block-sn-profile-sn-newsletter {
-  .newsletter-link {
-    padding: 7px 10px;
-  }
-}
-
-#block-menu-menu-sections,
-#block-menu-menu-social-media {
-  ul.menu {
-    padding: 0 0 10px;
-    margin: -5px 0 0;
-    li {
-      list-style-type: none;
-      list-style-image: none;
-    }
-    .twitter, .google, .facebook {
-      display: none;
-    }
-  }
-}
-
-#block-sn-profile-sn-account {
-  padding: 12px 0 12px 20px;
-  .user-picture,
-  .user-links {
-    float: left;
-    margin-right: 20px;
-  }
-  .user-links {
-    margin-top: 10px;
-    &:last-child a {
-      float:right;
-    }
-  }
-}
-
-.logged-in #block-sn-profile-sn-account {
-  //margin-top: 11px;
-  padding: 5px 0 10px 20px;
-  border-bottom: 1px solid $snBlueUltraLight;
-  margin-bottom: 0px;
-}
-#block-sn-profile-sn-account,
-#block-menu-menu-social-media,
-#block-sn-profile-sn-newsletter,
-#block-esi-block-s10-sn-profile-sn-account {
-  border-bottom: 1px solid $snBlueUltraLight;
-}
-
-#block-esi-block-s10-sn-profile-sn-account {
-  margin-top: 12px;
-  padding: 0;
-}
-
-#block-menu-menu-sections {
-  display: none; /* XXX */
-  @include box-shadow();
-  ul.menu {
-    padding-bottom: 0;
-    li {
-      margin-left: 0;
-      padding: 13px 0px 16px 20px;
-      border-bottom: 1px solid $snBlueUltraLight;
+    #block-esi-block-s10-sn-profile-sn-account,
+    #block-sn-profile-sn-newsletter,
+    #block-sn-profile-sn-account,
+    #block-menu-menu-social-media,
+    #block-menu-menu-sections {
+      display: none; /* XXX */
       background-color: $snBlueLighter;
-    }
-  }
-  margin-left: 0;
-  margin-top: 4px;
-  padding: 0;
-}
-
-#block-menu-menu-social-media {
-  display: none; /* XXX */
-  ul.menu {
-    padding: 0 0 8px;
-  }
-}
-
-#block-esi-block-s10-sn-profile-sn-account,
-#block-sn-profile-sn-newsletter,
-#block-sn-profile-sn-account,
-#block-menu-menu-social-media,
-#block-menu-menu-sections {
-  h2.block-title {
-    display: none;
-  }
-}
-
-#region-nav-bar{ 
-  a{
-    display:block;
-    width:100%
-  }
-  .user-links{
-    width:100%;
-    text-align:left;
-    span{
-      display:none;
-    }
-    a{
-      display:inline-block;
-      float:left;
-      margin-right:80px;
-      width:auto;
-    }
-  }
-}
-.logged-in {
-  #region-nav-bar {
-    .user-links {
-      width:45%;
-      margin-right:0px;
-      text-align:left;
+      margin-top: 0;
+      padding: 7px 10px;
+      /*width: 100%;*/
+      color: $white;
       a {
+        text-decoration: none;
+        color: $white !important;
+        font-weight: normal !important;
+        padding-left: 0px !important;
+        &:visited {
+          color: $white;
+        }
+      }
+    }
+
+    #mobile-nav-bar {
+        display: block;
+        z-index: 499;
+        height:50px;
+
+      a {
+        text-indent: -9999em;
+        text-decoration: none;
+      }
+
+      a.menu-toggle,
+      a.search-toggle {
+        padding: 5px;
+        height: 40px;
+        width: 40px;
+        display: block;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+
+      a.menu-toggle {
+        background-image: url('https://www.sciencenews.org/profiles/sn/themes/ssp/i/mobile-menu.svg');
+        float: left;
+        border-right: 1px solid $snBlueLight;
+
+        &.opened {
+          background-image: url('https://www.sciencenews.org/profiles/sn/themes/ssp/i/mobile-menu-active.svg');
+          background-color: $snBlueLighter;
+        }
+      }
+
+      a.search-toggle {
+        display: none;
+        background-image: url('https://www.sciencenews.org/profiles/sn/themes/ssp/i/mobile-search.svg');
+        float: right;
+        border-left: 1px solid $snBlueLight;
+
+        &.opened {
+          background-image: url('https://www.sciencenews.org/profiles/sn/themes/ssp/i/mobile-search-active.svg');
+          background-color: $snBlueLighter;
+        }
+      }
+
+      a.mobile-logo {
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 5px;
+        width: 180px;
+        height: 40px;
+        background: url('https://www.sciencenews.org/profiles/sn/themes/ssp/i/mobile-logo.svg') no-repeat center center;
+      }
+    }
+
+    .mobile-menu-border {
+      border-top: 1px #e2e7eb solid;
+      border-bottom: 1px solid #e2e7eb;
+      height: 1px;
+      background: #e2e7eb;
+    }
+
+    #block-menu-menu-sections {
+      display: none; /* XXX */
+      float: none;
+      @include box-shadow();
+      ul.menu {
+        padding-bottom: 0;
+        li {
+          margin-left: 0;
+          padding: 13px 0px 16px 20px;
+          border-bottom: 1px solid $snBlueUltraLight;
+          background-color: $snBlueLighter;
+          float: none;
+            &.first {
+                a {
+                    border-left: none;
+                }
+            }
+        }
+      }
+      margin-left: 0;
+      margin-top: 4px;
+      padding: 0;
+    }
+
+    // #block-menu-menu-social-media ul.menu li a {
+
+    //         &.twitter {
+    //             display: none;
+    //         }
+    //         &.facebook {
+    //             display: none;
+    //         }
+    //         &.google {
+    //             display: none;
+    //         }   
+    //         &.donate {
+    //             margin: 1px 0px 0 0px;
+    //         }   
+    // }
+
+    #block-menu-menu-newsletter {
+        display: none;
+    }
+
+    #block-menu-menu-sections,
+    #block-menu-menu-social-media {
+      ul.menu {
+        padding: 0 0 10px;
+        margin: -5px 0 0;
+        li {
+          list-style-type: none;
+          list-style-image: none;
+        }
+        .twitter, .google, .facebook {
+          display: none;
+        }
+      }
+    }
+
+    #block-menu-menu-social-media  {
+        display: none !important;
+        li:last-child {
+            display: none !important;
+                a {
+                    display: none !important;
+                }
+        }
+    }
+
+    #block-sn-profile-sn-account {
+      display: none !important;
+      padding: 12px 0 12px 20px;
+      float: none;
+      clear: inherit;
+      .user-picture,
+      .user-links {
+        background-color: $snBlueLighter;
+        float: left;
+        margin-right: 20px;
+      }
+      .user-links {
+        margin-top: 10px;
+        &:last-child a {
+          float:right;
+        }
+      }
+    }
+
+    #region-nav-bar{ 
+      a{
+        display:block;
+        width:100%
+      }
+      .user-links{
         width:100%;
+        text-align:left;
+        span{
+          display:none;
+        }
+        a{
+          display:inline-block;
+          float:left;
+          margin-right:80px;
+          width:auto;
+        }
+      }
+    }
+
+
+} /* end mobile media query */
+
+
+
+
+
+// tablet
+@media (min-width: 768px) {
+    .grid-3 {
+        width: 768px;
+    }
+
+    #block-menu-menu-sections ul.menu li a {
+        padding: 0 10px;
+        font-size: 13px;
+    }
+
+    #zone-branding-wrapper {
+       .branding-data {
+          .logo-img {
+            background-image: url('https://www.sciencenews.org/profiles/sn/themes/ssp/i/logo-360.svg');
+          }
+        }
+    }
+
+
+  #blog-detail-header .blog-image {
+    display: block;
+  }
+
+    #block-menu-menu-social-media ul.menu li a {
+
+            &.twitter {
+                display: none;
+            }
+            &.facebook {
+                display: none;
+            }
+            &.google {
+                display: none;
+            }   
+            &.donate {
+                margin: 1px 0px 0 0px;
+            }   
+    }
+
+    #block-menu-menu-newsletter {
+        display: none;
+    }
+
+}
+
+// desktop
+@media (min-width: 1024px) {
+    .grid-3 {
+        width: 958px;
+    }
+
+    #block-menu-menu-sections ul.menu li a {
+        padding: 0 15px;
+        font-size: 15px;
+    }
+
+  #zone-branding-wrapper {
+    .branding-data {
+      .logo-img {
+        background-image: url('https://www.sciencenews.org/profiles/sn/themes/ssp/i/logo-360.svg');
       }
     }
   }
-}
-#viewport-main {
-  .arrowLeft, .arrowRight {
-    width:30px;
+  #blog-detail-header .blog-description {
+    display: block;
   }
-  .slideshow-main-cover {
-    margin-top:4%!important;
-  }
+
+
 }
 
-} /* end mobile media query */
+// wide
+@media (min-width: 1220px) {
+    .grid-3 {
+     width: 1180px;
+    }
+
+    #block-menu-menu-sections ul.menu li a {
+        padding: 0 12px;
+        font-size: 15px;
+    }
+
+    #block-menu-menu-social-media ul.menu li a {
+
+            &.twitter {
+                display: block;
+            }
+            &.facebook {
+                display: block;
+            }
+            &.google {
+                display: block;
+            }   
+            &.donate {
+                margin: 1px 10px 0 10px;
+            }   
+    }
+
+    #block-menu-menu-newsletter {
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -1082,6 +1235,7 @@ Mobile
 
 
 #Section8 {
+         
          .cont-b {
             position: relative;
             bottom: 0;
@@ -1132,15 +1286,6 @@ Mobile
 }
 
 #Section20 {
-        // .cont-b {
-        //     position: relative;
-        //     bottom: 0;
-        //     min-height: 700px;
-        //     background-image: url("https://www.sciencenews.org/web-assets/images/curiosity/19_Spring-Summer/springsummer_bottom_landscape.jpg");
-        //     background-repeat: no-repeat;
-        //     background-size: 100%;
-        //     background-position: left bottom;
-        // }
     background-image: url("https://www.sciencenews.org/web-assets/images/curiosity/19_Spring-Summer/springsummer_bottom_landscape.jpg");
     background-repeat: no-repeat;
     background-size: cover;
