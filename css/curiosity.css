@@ -585,7 +585,7 @@ Mobile
   right: 0;
   margin: 0 auto;
   width: 1054px;
-  height: 126px;
+  height: 132px;
   z-index: 10;
   background-image: url("https://www.sciencenews.org/web-assets/images/curiosity/map/map_sol_001.png");
   background-repeat: no-repeat;
@@ -595,11 +595,15 @@ Mobile
   .mars-nav-wrapper .map-wrapper {
     min-height: 105px; }
   .mars-nav-wrapper #mars-curiosity-nav {
-    height: 20px;
+    height: 26px;
     z-index: 70;
     width: 100%;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    background: #fff; }
     .mars-nav-wrapper #mars-curiosity-nav li {
       display: inline-block;
       float: left;
@@ -1001,9 +1005,6 @@ Mobile
 
 .jssora03r:hover {
   background-position: -183px -33px; }
-
-.jssora03r.jssora03rdn {
-  background-position: -303px -33px; }
 
 #Section4 [u='slides'],
 #Section4 .slide-wrapper,
